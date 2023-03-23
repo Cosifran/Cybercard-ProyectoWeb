@@ -21,7 +21,7 @@ body {
 
 .contenedor-header {
   /* Auto layout */
-  height: 99.37px;
+  height: 5.563rem;
   left: 0px;
   top: 0px;
 
@@ -308,7 +308,13 @@ color: #6F6F6F;
     color: #f8f6f6;
     background: #FF1D1D;
     border-radius: 0.25rem;
-
+    margin-right: 0.563rem;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 1rem;
+line-height: 1.188rem;
+padding: 0.125rem;
 }
 
 .p-precios{
@@ -323,9 +329,7 @@ color: #6F6F6F;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
-font-size: 1rem;
-line-height: 1.188rem;
-
+font-size: 0.8rem;
 color: #3F3F3F;
 }
 
@@ -333,16 +337,124 @@ color: #3F3F3F;
     font-family: 'Roboto';
 font-style: normal;
 font-weight: 700;
-font-size: 21px;
-line-height: 25px;
-margin-bottom: 0.6rem !important;
-margin-top: 0.6rem !important;
+font-size: 1.2rem;
+line-height: 1.5rem;
 color: #000000;
 }
 
+.text-af{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.text-p-ed{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.text-precios-pd{
+  display: flex;
+  align-content: flex-end;
+}
+
 .d-flex{
-    height: 80px !important;
+  color: #6F6F6F;
     width: 4px;
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-left: 1.5rem;
+}
+
+.vr {
+  display: inline-block;
+  align-self: stretch;
+  width: 0.063rem !important;
+  min-height: 4.5rem !important;
+  background-color: currentcolor;
+  opacity: 0.25 !important; 
+}
+
+.bg-flooter-two{
+  padding-left: 0.938rem;
+  display: flex;
+
+}
+
+.text-flooter-two{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 0.8rem;
+line-height: 1rem;
+color: #3F3F3F;
+padding-left: 5px;
+}
+
+.ahorro-COP{
+  color: rgba(255, 0, 0, 1);
+}
+
+.tex-c-p-two{
+  margin-top: 8px !important;
+}
+
+.color-trans{
+  color: transparent !important;
+}
+
+.m-mod{
+  margin-top: 0.39rem;
+  margin-left: 0.875rem;
+}
+
+.margin-flooter{
+  margin-top: 1.5rem;
+}
+
+/* -------------------------------------------------------------------------------------
+                                      Listering
+----------------------------------------------------------------------------------------*/
+
+/* --------------------------
+       Buscador Listering
+----------------------------*/
+.marg-top-b{
+  margin-top: 2rem;
+  margin-bottom: 1.78rem;
+}
+
+.dis-buscador-l{
+  box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.25);
+border-radius: 0px 0px 30px 30px;
+}
+
+/* --------------------------
+   Cuerpo culumna Izquierda
+----------------------------*/
+.orden-f-p{
+  display: flex;
+  margin-bottom: 0.5rem;
+}
+
+.fa-solid fa-star{
+  width: 26px;
+  height: 26px;
+}
+
+.edit-icon{
+  width: 28px;
+  height: 28px;
+  color: #FFD337 !important; 
+}
+
+.edit-va{
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 21px;
+
+color: #3F3F3F;
+
+
 }
