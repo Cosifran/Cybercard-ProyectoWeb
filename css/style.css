@@ -112,7 +112,7 @@ body {
  Cuerpo de sugerencias
 ----------------------*/
 .d-p-t{
-    padding-bottom: 0.60rem !important;
+    padding-bottom: 0.3rem !important;
     padding-left: 0 !important;
     padding-right: 0 !important;
     background: #FFFFFF;
@@ -206,7 +206,7 @@ margin-left: 1rem;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
-  font-size: 1.438rem;
+  font-size: 1.3rem;
   line-height: 1.688rem;
 
   color: #000000;
@@ -228,7 +228,7 @@ margin-left: 1rem;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
-  font-size: 1.063rem;
+  font-size: 1.0rem;
   line-height: 1.25rem;
 
   color: #6f6f6f;
@@ -248,7 +248,7 @@ margin-left: 1rem;
     border-top: var(--bs-border-width) solid;
     opacity: 100%;
     width: 90%;
-    margin-top: 0.563rem;
+    margin-top: 0.863rem;
     margin-bottom: 0.563rem;
 }
 
@@ -256,7 +256,7 @@ margin-left: 1rem;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
-font-size: 1.125rem;
+font-size: 1.0rem;
 line-height: 1.313rem;
 color: #6F6F6F;
 padding-right: 0.625rem;
@@ -314,7 +314,7 @@ font-style: normal;
 font-weight: 600;
 font-size: 1rem;
 line-height: 1.188rem;
-padding: 0.125rem;
+padding: 0.2rem;
 }
 
 .p-precios{
@@ -370,13 +370,13 @@ color: #000000;
   width: 0.063rem !important;
   min-height: 4.5rem !important;
   background-color: currentcolor;
-  opacity: 0.25 !important; 
+  opacity: 0.90 !important; 
 }
 
 .bg-flooter-two{
-  padding-left: 0.938rem;
+  padding-left: 0.638rem;
   display: flex;
-
+  padding-top: 0.813rem;
 }
 
 .text-flooter-two{
@@ -436,6 +436,11 @@ border-radius: 0px 0px 30px 30px;
   padding-top: 2rem;
   padding-left: 0.625rem;
     padding-right: 0.625rem;
+}
+
+.t-img{
+  height: 505px;
+  background-color: #6f6f6f;
 }
 
 .fa-solid fa-star{
@@ -527,6 +532,7 @@ margin-left: 0.313rem !important ;
   background: #FFFFFF;
 box-shadow: 0px 4px 19px -3px rgba(0, 0, 0, 0.25);
 border-radius: 20px;
+padding-bottom: 4.313rem;
 }
 
 .s-r-l{
@@ -552,6 +558,7 @@ border-radius: 20px;
   display: flex;
   background-color: white;
   box-shadow: 0px 4px 19px rgba(0, 0, 0, 0.25);
+  border-radius: 1.25rem;
 }
 
 .primera-part{
@@ -647,6 +654,7 @@ color: #FF1D1D;
 .s-pm-pm{
   margin-right: 1.5rem;
   margin-left: 1.5rem;
+  color: rgba(193, 193, 193, 1);
 }
 
 .p-precio-two{
@@ -659,7 +667,7 @@ color: #FF1D1D;
 }
 
 .cont-part-tres{
-  height: 9.563rem;
+  height: 10.5rem;
   padding-top: 0px;
 }
 
@@ -676,6 +684,31 @@ color: #FF1D1D;
   line-height: 1.438rem;
   color: white;
   background-color: #f10000;
-  padding: 0.5rem 2.313rem;
+  padding: 0.5rem 2rem;
   border-radius: 0.5rem;
+}
+
+.pad-fondo-c-g{
+  padding: 0.313rem;
+  background: #FFDFDF;
+border-radius: 0.25rem;
+}
+
+.est-cgd{
+  margin-right: 0.438rem;
+}
+
+.separa-vertical{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tamano-vr{
+  height: 95%;
+  color: rgba(193, 193, 193, 1);
+}
+
+.control-p{
+  padding: 0 !important;
 }

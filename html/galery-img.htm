@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galery Hotel</title>
+
+    <!--Bootstrap y CSS-->
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/BOOTSTRAP-CSS/bootstrap.min.css" />
+</head>
+<body>
+     <!-- Cabezera de la pagina-->
+     <div class="container-fluid contenedor-header">
+        <div class="row align-content-center sizeh justify-content-around">
+          <div class="col-3">
+            <a href="/index.html">
+              <img
+                src="/css/IMG/Logo/Group.png"
+                class="img-fluid"
+                alt="LogoCyber"
+              />
+            </a>
+          </div>
+          <div class="col-3 posicion-elementos pt-3">
+            <a class="position-ui" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="38"
+                height="38"
+                fill="#706F6F"
+                class="bi bi-person-fill"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+                />
+              </svg>
+              <span class="text-miUsuario">Mi usuario</span>
+            </a>
+          </div>
+        </div>
+  
+        <!-- Buscador del Litering-->
+        <div class="row posicionB">
+          <div class="col-7 dis-buscador-l">
+            <div class="row">
+              <div class="col ps-5">
+                <div class="marg-top-b">
+                  <label for="exampleDataList" class="form-label mb-0 color-text"
+                    >Destino</label
+                  >
+                  <input
+                    class="form-control"
+                    list="datalistOptions"
+                    id="exampleDataList"
+                    placeholder="Type to search..."
+                  />
+                  <datalist id="datalistOptions">
+                    <option value="San Francisco"></option>
+                    <option value="New York"></option>
+                    <option value="Seattle"></option>
+                    <option value="Los Angeles"></option>
+                    <option value="Chicago"></option>
+                  </datalist>
+                </div>
+              </div>
+  
+              <div class="col">
+                <!--
+                <input type="date" id="date">
+                -->
+                <div class="marg-top-b">
+                  <section class="container">
+                    <form class="row">
+                      <label for="date" class="color-text">Llegada</label>
+                      <div class="input-group date" id="datepicker">
+                        <input type="text" class="form-control" id="date" />
+                        <span class="input-group-append">
+                          <span class="input-group-text bg-light d-block">
+                            <i class="fa fa-calendar"></i>
+                          </span>
+                        </span>
+                      </div>
+                    </form>
+                  </section>
+                </div>
+              </div>
+  
+              <div class="col">
+                <!--
+                  <input type="date" id="date">
+                  -->
+                <div class="marg-top-b">
+                  <section class="container">
+                    <form class="row">
+                      <label for="date" class="color-text">Llegada</label>
+                      <div class="input-group date" id="datepicker">
+                        <input type="text" class="form-control" id="date" />
+                        <span class="input-group-append">
+                          <span class="input-group-text bg-light d-block">
+                            <i class="fa fa-calendar"></i>
+                          </span>
+                        </span>
+                      </div>
+                    </form>
+                  </section>
+                </div>
+              </div>
+  
+              <div class="col">
+                <div class="marg-top-b">
+                  <label for="date" class="color-text"
+                    >Habitaciones y huespedes</label
+                  >
+                  <select class="form-select" aria-label="Default select example">
+                    <option selected>Open this select menu</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </div>
+              </div>
+  
+              <div class="col">
+                <div class="marg-top-b">
+                  <a href="/html/listing.html">
+                    <br />
+                    <button class="btn btn-danger color-text" type="submit">
+                      Buscar
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="container-fluid mt-2 control-p">
+            <div class="row">
+                <div class="col-12 control-p">
+                    <div class="t-img">
+                        <img src="..." class="img-fluid" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+     </div>
+</body>
+</html>
