@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index new</title>
+    <!--Bootstrap y CSS-->
+    <link rel="stylesheet" href="./css/style-new.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./boostrap/bootstrap.min.css" />
+  </head>
+  <body>
+    <div class="container pt-4">
+
+      <div class="row pt-4">
+        <div class="col col-md-6">
+          <h2 class="fw-bold">Tus  búsquedas recientes</h2>
+          <p class="fw-semibold">Destinos que has buscado previamente</p>
+        </div>
+
+        <div class="col col-md-6">
+          <p class="red-color text-end py-4 fw-semibold">Limpiar</p>
+        </div>
+      </div>
+
+       <!--Tarjetas CyberCard 1t-->
+
+      <div class="row pt-4">
+        <div class="col col-12 col-md-4">
+          <div class="card shadow border-tarjetas">
+            <img
+              src="./images/imagen-hote-t1.png"
+              alt="Logo Cybercard Min"
+              class="img-fluid"
+            />
+            <span
+              class="position-absolute ms-3 mt-3 py-1 px-2 bg-white rounded-3 fw-bolder border border-white shadow-sm"
+            >
+              <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+              Incluye desayuno
+            </span>
+
+            <div class="card-body pb-1 pt-1">
+              <p class="fs-4 fw-bold">The Pyramid Cancún</p>
+
+              <div>
+                <span
+                  ><svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.95142 20.1094C7.30298 20.6562 8.12329 20.6562 8.47485 20.1094C14.178 11.9062 15.2327 11.0469 15.2327 8C15.2327 3.85938 11.8733 0.5 7.73267 0.5C3.55298 0.5 0.232666 3.85938 0.232666 8C0.232666 11.0469 1.24829 11.9062 6.95142 20.1094ZM7.73267 11.125C5.97485 11.125 4.60767 9.75781 4.60767 8C4.60767 6.28125 5.97485 4.875 7.73267 4.875C9.45142 4.875 10.8577 6.28125 10.8577 8C10.8577 9.75781 9.45142 11.125 7.73267 11.125Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="fw-semibold text-secundario">
+                  Cartagena, Bocagrande 5.3 Km del centro
+                </span>
+              </div>
+
+              <hr class="my-2" />
+
+              <div>
+                <span class="text-secundario fw-semibold fs-6 me-3"
+                  >17 de marzo al 19 de marzo</span
+                >
+                <span class="me-2">
+                  <svg
+                    width="23"
+                    height="14"
+                    viewBox="0 0 23 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.6875 7.25C8.23438 7.25 9.5 6.01953 9.5 4.4375C9.5 2.89062 8.23438 1.625 6.6875 1.625C5.10547 1.625 3.875 2.89062 3.875 4.4375C3.875 6.01953 5.10547 7.25 6.6875 7.25ZM19.0625 2.75H11.1875C10.8711 2.75 10.625 3.03125 10.625 3.3125V8.375H2.75V1.0625C2.75 0.78125 2.46875 0.5 2.1875 0.5H1.0625C0.746094 0.5 0.5 0.78125 0.5 1.0625V13.4375C0.5 13.7539 0.746094 14 1.0625 14H2.1875C2.46875 14 2.75 13.7539 2.75 13.4375V11.75H20.75V13.4375C20.75 13.7539 20.9961 14 21.3125 14H22.4375C22.7188 14 23 13.7539 23 13.4375V6.6875C23 4.54297 21.207 2.75 19.0625 2.75Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="text-secundario fw-semibold fs-6 me-2">1</span>
+                <span class="me-2">
+                  <svg
+                    width="15"
+                    height="16"
+                    viewBox="0 0 15 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 8C9.6875 8 11.5 6.21875 11.5 4C11.5 1.8125 9.6875 0 7.5 0C5.28125 0 3.5 1.8125 3.5 4C3.5 6.21875 5.28125 8 7.5 8ZM10.2812 9H9.75C9.0625 9.34375 8.3125 9.5 7.5 9.5C6.6875 9.5 5.90625 9.34375 5.21875 9H4.6875C2.375 9 0.5 10.9062 0.5 13.2188V14.5C0.5 15.3438 1.15625 16 2 16H13C13.8125 16 14.5 15.3438 14.5 14.5V13.2188C14.5 10.9062 12.5938 9 10.2812 9Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="text-secundario fw-semibold fs-6 me-2">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-md-4">
+          <div class="card shadow border-tarjetas">
+            <img
+              src="./images/imagen-hote-t1.png"
+              alt="Logo Cybercard Min"
+              class="img-fluid"
+            />
+            <span
+              class="position-absolute ms-3 mt-3 py-1 px-2 bg-white rounded-3 fw-bolder border border-white shadow-sm"
+            >
+              <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+              Incluye desayuno
+            </span>
+
+            <div class="card-body pb-1 pt-1">
+              <p class="fs-4 fw-bold">The Pyramid Cancún</p>
+
+              <div>
+                <span
+                  ><svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.95142 20.1094C7.30298 20.6562 8.12329 20.6562 8.47485 20.1094C14.178 11.9062 15.2327 11.0469 15.2327 8C15.2327 3.85938 11.8733 0.5 7.73267 0.5C3.55298 0.5 0.232666 3.85938 0.232666 8C0.232666 11.0469 1.24829 11.9062 6.95142 20.1094ZM7.73267 11.125C5.97485 11.125 4.60767 9.75781 4.60767 8C4.60767 6.28125 5.97485 4.875 7.73267 4.875C9.45142 4.875 10.8577 6.28125 10.8577 8C10.8577 9.75781 9.45142 11.125 7.73267 11.125Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="fw-semibold text-secundario">
+                  Cartagena, Bocagrande 5.3 Km del centro
+                </span>
+              </div>
+
+              <hr class="my-2" />
+
+              <div>
+                <span class="text-secundario fw-semibold fs-6 me-3"
+                  >17 de marzo al 19 de marzo</span
+                >
+                <span class="me-2">
+                  <svg
+                    width="23"
+                    height="14"
+                    viewBox="0 0 23 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.6875 7.25C8.23438 7.25 9.5 6.01953 9.5 4.4375C9.5 2.89062 8.23438 1.625 6.6875 1.625C5.10547 1.625 3.875 2.89062 3.875 4.4375C3.875 6.01953 5.10547 7.25 6.6875 7.25ZM19.0625 2.75H11.1875C10.8711 2.75 10.625 3.03125 10.625 3.3125V8.375H2.75V1.0625C2.75 0.78125 2.46875 0.5 2.1875 0.5H1.0625C0.746094 0.5 0.5 0.78125 0.5 1.0625V13.4375C0.5 13.7539 0.746094 14 1.0625 14H2.1875C2.46875 14 2.75 13.7539 2.75 13.4375V11.75H20.75V13.4375C20.75 13.7539 20.9961 14 21.3125 14H22.4375C22.7188 14 23 13.7539 23 13.4375V6.6875C23 4.54297 21.207 2.75 19.0625 2.75Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="text-secundario fw-semibold fs-6 me-2">1</span>
+                <span class="me-2">
+                  <svg
+                    width="15"
+                    height="16"
+                    viewBox="0 0 15 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 8C9.6875 8 11.5 6.21875 11.5 4C11.5 1.8125 9.6875 0 7.5 0C5.28125 0 3.5 1.8125 3.5 4C3.5 6.21875 5.28125 8 7.5 8ZM10.2812 9H9.75C9.0625 9.34375 8.3125 9.5 7.5 9.5C6.6875 9.5 5.90625 9.34375 5.21875 9H4.6875C2.375 9 0.5 10.9062 0.5 13.2188V14.5C0.5 15.3438 1.15625 16 2 16H13C13.8125 16 14.5 15.3438 14.5 14.5V13.2188C14.5 10.9062 12.5938 9 10.2812 9Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="text-secundario fw-semibold fs-6 me-2">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-md-4">
+          <div class="card shadow border-tarjetas">
+            <img
+              src="./images/imagen-hote-t1.png"
+              alt="Logo Cybercard Min"
+              class="img-fluid"
+            />
+            <span
+              class="position-absolute ms-3 mt-3 py-1 px-2 bg-white rounded-3 fw-bolder border border-white shadow-sm"
+            >
+              <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+              Incluye desayuno
+            </span>
+
+            <div class="card-body pb-1 pt-1">
+              <p class="fs-4 fw-bold">The Pyramid Cancún</p>
+
+              <div>
+                <span
+                  ><svg
+                    width="16"
+                    height="16"
+                    viewBox="0 0 16 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.95142 20.1094C7.30298 20.6562 8.12329 20.6562 8.47485 20.1094C14.178 11.9062 15.2327 11.0469 15.2327 8C15.2327 3.85938 11.8733 0.5 7.73267 0.5C3.55298 0.5 0.232666 3.85938 0.232666 8C0.232666 11.0469 1.24829 11.9062 6.95142 20.1094ZM7.73267 11.125C5.97485 11.125 4.60767 9.75781 4.60767 8C4.60767 6.28125 5.97485 4.875 7.73267 4.875C9.45142 4.875 10.8577 6.28125 10.8577 8C10.8577 9.75781 9.45142 11.125 7.73267 11.125Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="fw-semibold text-secundario">
+                  Cartagena, Bocagrande 5.3 Km del centro
+                </span>
+              </div>
+
+              <hr class="my-2" />
+
+              <div>
+                <span class="text-secundario fw-semibold fs-6 me-3"
+                  >17 de marzo al 19 de marzo</span
+                >
+                <span class="me-2">
+                  <svg
+                    width="23"
+                    height="14"
+                    viewBox="0 0 23 14"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.6875 7.25C8.23438 7.25 9.5 6.01953 9.5 4.4375C9.5 2.89062 8.23438 1.625 6.6875 1.625C5.10547 1.625 3.875 2.89062 3.875 4.4375C3.875 6.01953 5.10547 7.25 6.6875 7.25ZM19.0625 2.75H11.1875C10.8711 2.75 10.625 3.03125 10.625 3.3125V8.375H2.75V1.0625C2.75 0.78125 2.46875 0.5 2.1875 0.5H1.0625C0.746094 0.5 0.5 0.78125 0.5 1.0625V13.4375C0.5 13.7539 0.746094 14 1.0625 14H2.1875C2.46875 14 2.75 13.7539 2.75 13.4375V11.75H20.75V13.4375C20.75 13.7539 20.9961 14 21.3125 14H22.4375C22.7188 14 23 13.7539 23 13.4375V6.6875C23 4.54297 21.207 2.75 19.0625 2.75Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="text-secundario fw-semibold fs-6 me-2">1</span>
+                <span class="me-2">
+                  <svg
+                    width="15"
+                    height="16"
+                    viewBox="0 0 15 16"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M7.5 8C9.6875 8 11.5 6.21875 11.5 4C11.5 1.8125 9.6875 0 7.5 0C5.28125 0 3.5 1.8125 3.5 4C3.5 6.21875 5.28125 8 7.5 8ZM10.2812 9H9.75C9.0625 9.34375 8.3125 9.5 7.5 9.5C6.6875 9.5 5.90625 9.34375 5.21875 9H4.6875C2.375 9 0.5 10.9062 0.5 13.2188V14.5C0.5 15.3438 1.15625 16 2 16H13C13.8125 16 14.5 15.3438 14.5 14.5V13.2188C14.5 10.9062 12.5938 9 10.2812 9Z"
+                      fill="#FF0000"
+                    />
+                  </svg>
+                </span>
+                <span class="text-secundario fw-semibold fs-6 me-2">2</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Recorre el mundo con Cybercard-->
+      <div class="row pt-4">
+        <div class="col col-md-6">
+          <h2 class="fw-bold">Recorre el mundo con Cybercard</h2>
+          <p class="fw-semibold">Promociones y descuentos especiales para ti</p>
+        </div>
+      </div>
+
+      <!--Tarjetas CyberCard 2t-->
+
+      <div class="row pt-4 pb-5">
+        <div class="col col-12 col-md-4">
+          <div class="card shadow border-tarjetas">
+            <img
+              src="./images/image-hotel.png"
+              alt="Logo Cybercard Min"
+              class="img-fluid"
+            />
+            <span
+              class="position-absolute ms-4 mt-4 py-1 px-2 bg-white rounded-3 fw-bolder border border-white shadow-sm"
+            >
+              <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+              Incluye desayuno
+            </span>
+            <div class="card-body pb-1">
+              <h5 class="card-title fw-bold">The Pyramid Cancún</h5>
+              <p>
+                <i class="fa-solid fa-location-dot" style="color: #ff0000"></i>
+                <span class="fs-6 fw-semibold ps-1">
+                  Cartagena, Bocagrande 5.3 Km del centro
+                </span>
+              </p>
+              <p>
+                <span class="badge bg-red me-2">9.2</span>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+              </p>
+
+              <hr class="my-2"/>
+
+              <div class="row">
+                <div class="col col-6">
+                  <p class="fs-5 fw-bolder grey-color">Publica</p>
+                  <p class="fs-4 fw-bold">COP 21.750.000</p>
+                  <p class="fs-6 fw-bolder grey-color">
+                    Precio x 1 noche desde
+                  </p>
+                </div>
+                <div class="col col-6 text-end border-left border-start">
+                  <p class="fs-5 fw-bolder grey-color">Afiliado</p>
+                  <p class="fs-4 fw-bold">COP 21.750.000</p>
+                  <p class="fs-6 fw-bolder grey-color">
+                    Precio x 1 noche desde
+                  </p>
+                </div>
+              </div>
+
+              <hr class="my-2" />
+
+              <div class="row">
+                <div class="col col-1 pt-2 me-2">
+                  <svg
+                    width="27"
+                    height="27"
+                    viewBox="0 0 27 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27Z"
+                      fill="#FF0000"
+                    />
+                    <path
+                      d="M10.8779 9.62637C10.482 9.16783 10.0497 8.8241 9.58027 8.59517C9.09243 8.3659 8.577 8.25143 8.03432 8.25143C7.02185 8.25143 6.16609 8.7035 5.4667 9.60763C4.75777 10.5118 4.40382 11.6322 4.40382 12.969C4.40382 14.0132 4.50772 14.9456 4.81126 15.773C5.10559 16.6009 5.59071 17.2601 6.17052 17.7438C6.7316 18.2405 7.38058 18.4885 8.1171 18.4885C9.20281 18.4885 10.1325 18.0109 10.9058 17.056L13.9572 20.6691C13.6073 21.1784 12.4841 22.2577 11.8583 22.6522C11.2233 23.047 10.5699 23.3396 9.89811 23.5307C9.22632 23.7219 8.60494 23.8172 8.03432 23.8172C6.43284 23.8172 5.02009 23.3522 3.79641 22.4229C2.57239 21.4806 1.6335 20.2457 0.980102 18.7178C0.326701 17.164 0 15.5026 0 13.7324C0 12.1156 0.197928 10.6511 0.593444 9.33953C0.998158 8.00275 1.55515 6.85674 2.26374 5.90185C2.96313 4.9725 3.81446 4.24007 4.81773 3.70556C5.8118 3.18366 6.88354 2.92236 8.03432 2.92236C8.9732 2.92236 9.88857 3.12608 10.7815 3.53352C11.6832 3.95357 13.3828 5.38744 14.073 6.15156L10.8779 9.62637Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="col col-10">
+                  <p class="fw-semibold grey-color size-text">
+                    Ser afiliado te permitirá obtener en esta reserva, un
+                    <span class="red-color fw-bolder"
+                      >Ahorro de COP 250.000</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-md-4">
+          <div class="card shadow border-tarjetas">
+            <img
+              src="./images/image-hotel.png"
+              alt="Logo Cybercard Min"
+              class="img-fluid"
+            />
+            <span
+              class="position-absolute ms-4 mt-4 py-1 px-2 bg-white rounded-3 fw-bolder border border-white shadow-sm"
+            >
+              <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+              Incluye desayuno
+            </span>
+            <div class="card-body pb-1">
+              <h5 class="card-title fw-bold">The Pyramid Cancún</h5>
+              <p>
+                <i class="fa-solid fa-location-dot" style="color: #ff0000"></i>
+                <span class="fs-6 fw-semibold ps-1">
+                  Cartagena, Bocagrande 5.3 Km del centro
+                </span>
+              </p>
+              <p>
+                <span class="badge bg-red me-2">9.2</span>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+              </p>
+
+              <hr class="my-2" />
+
+              <div class="row">
+                <div class="col col-6">
+                  <p class="fs-5 fw-bolder grey-color">Publica</p>
+                  <p class="fs-4 fw-bold">COP 21.750.000</p>
+                  <p class="fs-6 fw-bolder grey-color">
+                    Precio x 1 noche desde
+                  </p>
+                </div>
+                <div class="col col-6 text-end border-left border-start">
+                  <p class="fs-5 fw-bolder grey-color">Afiliado</p>
+                  <p class="fs-4 fw-bold">COP 21.750.000</p>
+                  <p class="fs-6 fw-bolder grey-color">
+                    Precio x 1 noche desde
+                  </p>
+                </div>
+              </div>
+
+              <hr class="my-2" />
+
+              <div class="row">
+                <div class="col col-1 pt-2 me-2">
+                  <svg
+                    width="27"
+                    height="27"
+                    viewBox="0 0 27 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27Z"
+                      fill="#FF0000"
+                    />
+                    <path
+                      d="M10.8779 9.62637C10.482 9.16783 10.0497 8.8241 9.58027 8.59517C9.09243 8.3659 8.577 8.25143 8.03432 8.25143C7.02185 8.25143 6.16609 8.7035 5.4667 9.60763C4.75777 10.5118 4.40382 11.6322 4.40382 12.969C4.40382 14.0132 4.50772 14.9456 4.81126 15.773C5.10559 16.6009 5.59071 17.2601 6.17052 17.7438C6.7316 18.2405 7.38058 18.4885 8.1171 18.4885C9.20281 18.4885 10.1325 18.0109 10.9058 17.056L13.9572 20.6691C13.6073 21.1784 12.4841 22.2577 11.8583 22.6522C11.2233 23.047 10.5699 23.3396 9.89811 23.5307C9.22632 23.7219 8.60494 23.8172 8.03432 23.8172C6.43284 23.8172 5.02009 23.3522 3.79641 22.4229C2.57239 21.4806 1.6335 20.2457 0.980102 18.7178C0.326701 17.164 0 15.5026 0 13.7324C0 12.1156 0.197928 10.6511 0.593444 9.33953C0.998158 8.00275 1.55515 6.85674 2.26374 5.90185C2.96313 4.9725 3.81446 4.24007 4.81773 3.70556C5.8118 3.18366 6.88354 2.92236 8.03432 2.92236C8.9732 2.92236 9.88857 3.12608 10.7815 3.53352C11.6832 3.95357 13.3828 5.38744 14.073 6.15156L10.8779 9.62637Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="col col-10">
+                  <p class="fw-semibold grey-color size-text">
+                    Ser afiliado te permitirá obtener en esta reserva, un
+                    <span class="red-color fw-bolder"
+                      >Ahorro de COP 250.000</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col col-12 col-md-4">
+          <div class="card shadow border-tarjetas">
+            <img
+              src="./images/image-hotel.png"
+              alt="Logo Cybercard Min"
+              class="img-fluid"
+            />
+            <span
+              class="position-absolute ms-4 mt-4 py-1 px-2 bg-white rounded-3 fw-bolder border border-white shadow-sm"
+            >
+              <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+              Incluye desayuno
+            </span>
+            <div class="card-body pb-1">
+              <h5 class="card-title fw-bold">The Pyramid Cancún</h5>
+              <p>
+                <i class="fa-solid fa-location-dot" style="color: #ff0000"></i>
+                <span class="fs-6 fw-semibold ps-1">
+                  Cartagena, Bocagrande 5.3 Km del centro
+                </span>
+              </p>
+              <p>
+                <span class="badge bg-red me-2">9.2</span>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+              </p>
+
+              <hr class="my-2" />
+
+              <div class="row">
+                <div class="col col-6">
+                  <p class="fs-5 fw-bolder grey-color">Publica</p>
+                  <p class="fs-4 fw-bold">COP 21.750.000</p>
+                  <p class="fs-6 fw-bolder grey-color">
+                    Precio x 1 noche desde
+                  </p>
+                </div>
+                <div class="col col-6 text-end border-left border-start">
+                  <p class="fs-5 fw-bolder grey-color">Afiliado</p>
+                  <p class="fs-4 fw-bold">COP 21.750.000</p>
+                  <p class="fs-6 fw-bolder grey-color">
+                    Precio x 1 noche desde
+                  </p>
+                </div>
+              </div>
+
+              <hr class="my-2" />
+
+              <div class="row">
+                <div class="col col-1 pt-2 me-2">
+                  <svg
+                    width="27"
+                    height="27"
+                    viewBox="0 0 27 27"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.5 27C20.9558 27 27 20.9558 27 13.5C27 6.04416 20.9558 0 13.5 0C6.04416 0 0 6.04416 0 13.5C0 20.9558 6.04416 27 13.5 27Z"
+                      fill="#FF0000"
+                    />
+                    <path
+                      d="M10.8779 9.62637C10.482 9.16783 10.0497 8.8241 9.58027 8.59517C9.09243 8.3659 8.577 8.25143 8.03432 8.25143C7.02185 8.25143 6.16609 8.7035 5.4667 9.60763C4.75777 10.5118 4.40382 11.6322 4.40382 12.969C4.40382 14.0132 4.50772 14.9456 4.81126 15.773C5.10559 16.6009 5.59071 17.2601 6.17052 17.7438C6.7316 18.2405 7.38058 18.4885 8.1171 18.4885C9.20281 18.4885 10.1325 18.0109 10.9058 17.056L13.9572 20.6691C13.6073 21.1784 12.4841 22.2577 11.8583 22.6522C11.2233 23.047 10.5699 23.3396 9.89811 23.5307C9.22632 23.7219 8.60494 23.8172 8.03432 23.8172C6.43284 23.8172 5.02009 23.3522 3.79641 22.4229C2.57239 21.4806 1.6335 20.2457 0.980102 18.7178C0.326701 17.164 0 15.5026 0 13.7324C0 12.1156 0.197928 10.6511 0.593444 9.33953C0.998158 8.00275 1.55515 6.85674 2.26374 5.90185C2.96313 4.9725 3.81446 4.24007 4.81773 3.70556C5.8118 3.18366 6.88354 2.92236 8.03432 2.92236C8.9732 2.92236 9.88857 3.12608 10.7815 3.53352C11.6832 3.95357 13.3828 5.38744 14.073 6.15156L10.8779 9.62637Z"
+                      fill="white"
+                    />
+                  </svg>
+                </div>
+                <div class="col col-10">
+                  <p class="fw-semibold grey-color size-text">
+                    Ser afiliado te permitirá obtener en esta reserva, un
+                    <span class="red-color fw-bolder"
+                      >Ahorro de COP 250.000</span
+                    >
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row pt-4">
+        <div class="col col-md-12">
+          <h2 class="fw-bold">CyberCard te abre las puertas a un mundo lleno de ahorro y benecifios</h2>
+        </div>
+      </div>
+
+      <!--Publicidad-->
+
+      <div class="row my-4">
+        <div class="col col-md-6">
+        
+            <img src="./images/Tarjeta hotel@2x.png" class="img-fluid border-publicidad" alt="publicidadS">
+          
+  
+        </div>
+        <div class="col md-6">
+          <img src="./images/img-publicidad-dos.png" class="img-fluid border-publicidad" alt="publicidadS">
+        </div>
+        
+      </div>
+
+    </div>
+  </body>
+
+  <!--Bootstrap Js-->
+  <script src="./js/bootstrap.min.js"></script>
+  <!--Frontawesome-->
+  <script
+    src="https://kit.fontawesome.com/6bf1c88451.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

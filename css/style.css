@@ -922,3 +922,37 @@ color: #000000;
     flex-direction: column;
     align-items: flex-end;
 }
+
+.posicion-btn-selec{
+  display: flex;
+  justify-content: center;
+}
+
+.estilo-span-flooter-c-d-g{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #6F6F6F;
+}
+
+.ex-el-iva{
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+
+color: #FF0000;
+}
+
+.cont-ser-afiliado{
+  background: #FFDFDF;
+box-shadow: 0px 4px 19px -3px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+padding: 16px 23px;
+}

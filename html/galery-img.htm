@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Galery Hotel</title>
 
     <!--Bootstrap y CSS-->
@@ -15,362 +15,490 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="/BOOTSTRAP-CSS/bootstrap.min.css" />
-</head>
-<body>
-     <!-- Cabezera de la pagina-->
-     <div class="container-fluid contenedor-header">
-        <div class="row align-content-center sizeh justify-content-around">
-          <div class="col-3">
-            <a href="/index.html">
-              <img
-                src="/css/IMG/Logo/Group.png"
-                class="img-fluid"
-                alt="LogoCyber"
-              />
-            </a>
-          </div>
-          <div class="col-3 posicion-elementos pt-3">
-            <a class="position-ui" href="#">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="38"
-                height="38"
-                fill="#706F6F"
-                class="bi bi-person-fill"
-                viewBox="0 0 16 16"
-              >
-                <path
-                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
-                />
-              </svg>
-              <span class="text-miUsuario">Mi usuario</span>
-            </a>
-          </div>
+  </head>
+  <body>
+    <!-- Cabezera de la pagina-->
+    <div class="container-fluid contenedor-header">
+      <div class="row align-content-center sizeh justify-content-around">
+        <div class="col-3">
+          <a href="/index.html">
+            <img
+              src="/css/IMG/Logo/Group.png"
+              class="img-fluid"
+              alt="LogoCyber"
+            />
+          </a>
         </div>
-  
-        <!-- Buscador del Litering-->
-        <div class="row posicionB">
-          <div class="col-7 dis-buscador-l">
-            <div class="row">
-              <div class="col ps-5">
-                <div class="marg-top-b">
-                  <label for="exampleDataList" class="form-label mb-0 color-text"
-                    >Destino</label
-                  >
-                  <input
-                    class="form-control"
-                    list="datalistOptions"
-                    id="exampleDataList"
-                    placeholder="Type to search..."
-                  />
-                  <datalist id="datalistOptions">
-                    <option value="San Francisco"></option>
-                    <option value="New York"></option>
-                    <option value="Seattle"></option>
-                    <option value="Los Angeles"></option>
-                    <option value="Chicago"></option>
-                  </datalist>
-                </div>
+        <div class="col-3 posicion-elementos pt-3">
+          <a class="position-ui" href="#">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="38"
+              height="38"
+              fill="#706F6F"
+              class="bi bi-person-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"
+              />
+            </svg>
+            <span class="text-miUsuario">Mi usuario</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Buscador del Litering-->
+      <div class="row posicionB">
+        <div class="col-7 dis-buscador-l">
+          <div class="row">
+            <div class="col ps-5">
+              <div class="marg-top-b">
+                <label for="exampleDataList" class="form-label mb-0 color-text"
+                  >Destino</label
+                >
+                <input
+                  class="form-control"
+                  list="datalistOptions"
+                  id="exampleDataList"
+                  placeholder="Type to search..."
+                />
+                <datalist id="datalistOptions">
+                  <option value="San Francisco"></option>
+                  <option value="New York"></option>
+                  <option value="Seattle"></option>
+                  <option value="Los Angeles"></option>
+                  <option value="Chicago"></option>
+                </datalist>
               </div>
-  
-              <div class="col">
-                <!--
+            </div>
+
+            <div class="col">
+              <!--
                 <input type="date" id="date">
                 -->
-                <div class="marg-top-b">
-                  <section class="container">
-                    <form class="row">
-                      <label for="date" class="color-text">Llegada</label>
-                      <div class="input-group date" id="datepicker">
-                        <input type="text" class="form-control" id="date" />
-                        <span class="input-group-append">
-                          <span class="input-group-text bg-light d-block">
-                            <i class="fa fa-calendar"></i>
-                          </span>
+              <div class="marg-top-b">
+                <section class="container">
+                  <form class="row">
+                    <label for="date" class="color-text">Llegada</label>
+                    <div class="input-group date" id="datepicker">
+                      <input type="text" class="form-control" id="date" />
+                      <span class="input-group-append">
+                        <span class="input-group-text bg-light d-block">
+                          <i class="fa fa-calendar"></i>
                         </span>
-                      </div>
-                    </form>
-                  </section>
-                </div>
+                      </span>
+                    </div>
+                  </form>
+                </section>
               </div>
-  
-              <div class="col">
-                <!--
+            </div>
+
+            <div class="col">
+              <!--
                   <input type="date" id="date">
                   -->
-                <div class="marg-top-b">
-                  <section class="container">
-                    <form class="row">
-                      <label for="date" class="color-text">Llegada</label>
-                      <div class="input-group date" id="datepicker">
-                        <input type="text" class="form-control" id="date" />
-                        <span class="input-group-append">
-                          <span class="input-group-text bg-light d-block">
-                            <i class="fa fa-calendar"></i>
-                          </span>
+              <div class="marg-top-b">
+                <section class="container">
+                  <form class="row">
+                    <label for="date" class="color-text">Llegada</label>
+                    <div class="input-group date" id="datepicker">
+                      <input type="text" class="form-control" id="date" />
+                      <span class="input-group-append">
+                        <span class="input-group-text bg-light d-block">
+                          <i class="fa fa-calendar"></i>
                         </span>
-                      </div>
-                    </form>
-                  </section>
-                </div>
+                      </span>
+                    </div>
+                  </form>
+                </section>
               </div>
-  
-              <div class="col">
-                <div class="marg-top-b">
-                  <label for="date" class="color-text"
-                    >Habitaciones y huespedes</label
-                  >
-                  <select class="form-select" aria-label="Default select example">
-                    <option selected>Open this select menu</option>
-                    <option value="1">One</option>
-                    <option value="2">Two</option>
-                    <option value="3">Three</option>
-                  </select>
-                </div>
+            </div>
+
+            <div class="col">
+              <div class="marg-top-b">
+                <label for="date" class="color-text"
+                  >Habitaciones y huespedes</label
+                >
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open this select menu</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
               </div>
-  
-              <div class="col">
-                <div class="marg-top-b">
-                  <a href="/html/listing.html">
-                    <br />
-                    <button class="btn btn-danger color-text" type="submit">
-                      Buscar
-                    </button>
-                  </a>
-                </div>
+            </div>
+
+            <div class="col">
+              <div class="marg-top-b">
+                <a href="/html/listing.html">
+                  <br />
+                  <button class="btn btn-danger color-text" type="submit">
+                    Buscar
+                  </button>
+                </a>
               </div>
             </div>
           </div>
         </div>
+      </div>
 
-        <!-- Banner principal -->
+      <!-- Banner principal -->
 
-        <div class="container-fluid mt-2 control-p">
-            <div class="row">
-                <div class="col-12 control-p">
-                    <div class="t-img">
-                        <img src="..." class="img-fluid" alt="...">
-                    </div>
-                </div>
+      <div class="container-fluid mt-2 control-p">
+        <div class="row">
+          <div class="col-12 control-p">
+            <div class="t-img">
+              <img src="..." class="img-fluid" alt="..." />
             </div>
+          </div>
         </div>
+      </div>
 
-        <!-- Cuerpo de la galeria -->
+      <!-- Cuerpo de la galeria -->
 
-        <div class="container-fluid">
-          <div class="row posicionB">
-            <div class="col-5">
-              <div class="cont-part-derecha-galery mt-3">
-                <h5 class="text-estilo-c-d-g">The Pyramid Cancún</h5>
-                <div>
-                  <svg width="14" height="19" viewBox="0 0 14 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M6.29688 18.0083C6.61328 18.5005 7.35156 18.5005 7.66797 18.0083C12.8008 10.6255 13.75 9.85205 13.75 7.10986C13.75 3.3833 10.7266 0.359863 7 0.359863C3.23828 0.359863 0.25 3.3833 0.25 7.10986C0.25 9.85205 1.16406 10.6255 6.29688 18.0083ZM7 9.92236C5.41797 9.92236 4.1875 8.69189 4.1875 7.10986C4.1875 5.56299 5.41797 4.29736 7 4.29736C8.54688 4.29736 9.8125 5.56299 9.8125 7.10986C9.8125 8.69189 8.54688 9.92236 7 9.92236Z" fill="#FF0000"/>
-                    </svg>                    
-                  <span class="text-estilo-span-c-i-g">Egipto, 5.3 Km del centro</span>
-                  <p class="tex-c-p-two">
-                    <span class="color-span-two">9.2</span>
-                    <span><i class="fa-solid fa-star" style="color: #ffd30b;"></i></span>
-                    <span><i class="fa-solid fa-star" style="color: #ffd30b;"></i></span>
-                    <span><i class="fa-solid fa-star" style="color: #ffd30b;"></i></span>
-                    <span><i class="fa-solid fa-star" style="color: #ffd30b;"></i></span>
-                    <span><i class="fa-solid fa-star" style="color: #ffd30b;"></i></span>
-                  </p>
-                </div>
+      <div class="container-fluid">
+        <div class="row posicionB">
+          <div class="col-5">
+            <div class="cont-part-derecha-galery mt-3">
+              <h5 class="text-estilo-c-d-g">The Pyramid Cancún</h5>
+              <div>
+                <svg
+                  width="14"
+                  height="19"
+                  viewBox="0 0 14 19"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.29688 18.0083C6.61328 18.5005 7.35156 18.5005 7.66797 18.0083C12.8008 10.6255 13.75 9.85205 13.75 7.10986C13.75 3.3833 10.7266 0.359863 7 0.359863C3.23828 0.359863 0.25 3.3833 0.25 7.10986C0.25 9.85205 1.16406 10.6255 6.29688 18.0083ZM7 9.92236C5.41797 9.92236 4.1875 8.69189 4.1875 7.10986C4.1875 5.56299 5.41797 4.29736 7 4.29736C8.54688 4.29736 9.8125 5.56299 9.8125 7.10986C9.8125 8.69189 8.54688 9.92236 7 9.92236Z"
+                    fill="#FF0000"
+                  />
+                </svg>
+                <span class="text-estilo-span-c-i-g"
+                  >Egipto, 5.3 Km del centro</span
+                >
+                <p class="tex-c-p-two">
+                  <span class="color-span-two">9.2</span>
+                  <span
+                    ><i class="fa-solid fa-star" style="color: #ffd30b"></i
+                  ></span>
+                  <span
+                    ><i class="fa-solid fa-star" style="color: #ffd30b"></i
+                  ></span>
+                  <span
+                    ><i class="fa-solid fa-star" style="color: #ffd30b"></i
+                  ></span>
+                  <span
+                    ><i class="fa-solid fa-star" style="color: #ffd30b"></i
+                  ></span>
+                  <span
+                    ><i class="fa-solid fa-star" style="color: #ffd30b"></i
+                  ></span>
+                </p>
+              </div>
 
-                <div class="my-4 d-container-nav">
-                  <span class="botones-nav">Descripción</span>
-                  <span class="botones-nav-n-active">Servicios</span>
-                  <span class="botones-nav-n-active">Habitaciones</span>
-                  <span class="botones-nav-n-active">Ubicación</span>
-                  <span class="botones-nav-n-active">Opiniones</span>
-                </div>
+              <div class="my-4 d-container-nav">
+                <span class="botones-nav">Descripción</span>
+                <span class="botones-nav-n-active">Servicios</span>
+                <span class="botones-nav-n-active">Habitaciones</span>
+                <span class="botones-nav-n-active">Ubicación</span>
+                <span class="botones-nav-n-active">Opiniones</span>
+              </div>
 
-               <div class="container-descripcion">
-
+              <div class="container-descripcion">
                 <div class="mb-4">
                   <div>
                     <h5 class="estilo-text-h5">Descripción</h5>
-                    <p class="estilo-parrafo">Gorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. Aliquam in elementum tellus.
-                      Norem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
-                      </p>
+                    <p class="estilo-parrafo">
+                      Gorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Etiam eu turpis molestie, dictum est a, mattis tellus. Sed
+                      dignissim, metus nec fringilla accumsan, risus sem
+                      sollicitudin lacus, ut interdum tellus elit sed risus.
+                      Maecenas eget condimentum velit, sit amet feugiat lectus.
+                      Class aptent taciti sociosqu ad litora torquent per
+                      conubia nostra, per inceptos himenaeos. Praesent auctor
+                      purus luctus enim egestas, ac scelerisque ante pulvinar.
+                      Donec ut rhoncus ex. Suspendisse ac rhoncus nisl, eu
+                      tempor urna. Curabitur vel bibendum lorem. Morbi convallis
+                      convallis diam sit amet lacinia. Aliquam in elementum
+                      tellus. Norem ipsum dolor sit amet, consectetur adipiscing
+                      elit. Etiam eu turpis molestie, dictum est a, mattis
+                      tellus. Sed dignissim, metus nec fringilla accumsan, risus
+                      sem sollicitudin lacus, ut interdum tellus elit sed risus.
+                      Maecenas eget condimentum velit, sit amet feugiat lectus.
+                      Class aptent taciti sociosqu ad litora torquent per
+                      conubia nostra, per inceptos himenaeos.
+                    </p>
                   </div>
                 </div>
-               </div>
+              </div>
 
-                <div class="container-serv my-3 container-descripcion">
-                  <h5 class="estilo-text-h5">Servicios</h5>
-                  <div class="d-de-precios container-info-hotel">
+              <div class="container-serv my-3 container-descripcion">
+                <h5 class="estilo-text-h5">Servicios</h5>
+                <div class="d-de-precios container-info-hotel">
+                  <div>
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 26 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M25.0156 8.03906C18.1016 1.67188 7.35938 1.67188 0.445312 8.03906C0.171875 8.3125 0.171875 8.70312 0.40625 8.9375L1.73438 10.2656C2.00781 10.5 2.39844 10.5391 2.63281 10.3047C8.33594 5.07031 17.125 5.07031 22.8281 10.3047C23.1016 10.5391 23.4531 10.5 23.7266 10.2656L25.0547 8.9375C25.2891 8.70312 25.2891 8.3125 25.0156 8.03906ZM12.75 15.7344C11.3438 15.7344 10.25 16.8672 10.25 18.2344C10.25 19.6406 11.3438 20.7344 12.75 20.7344C14.1172 20.7344 15.25 19.6406 15.25 18.2344C15.25 16.8672 14.1172 15.7344 12.75 15.7344ZM20.6406 12.4922C16.1484 8.50781 9.3125 8.50781 4.82031 12.4922C4.54688 12.7266 4.54688 13.1562 4.78125 13.3906L6.14844 14.7188C6.38281 14.9531 6.73438 14.9531 7.00781 14.7578C10.2891 11.9062 15.1719 11.9062 18.4531 14.7578C18.7266 14.9531 19.0781 14.9531 19.3125 14.7188L20.6797 13.3906C20.9141 13.1562 20.9141 12.7266 20.6406 12.4922Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Wifi</span></div>
+                    </div>
+
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 19 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.875 2.98438H2.125C1.07031 2.98438 0.25 3.84375 0.25 4.85938V18.6094C0.25 19.6641 1.07031 20.4844 2.125 20.4844H15.875C16.8906 20.4844 17.75 19.6641 17.75 18.6094V4.85938C17.75 3.84375 16.8906 2.98438 15.875 2.98438ZM9.625 14.2344H7.75V16.1094C7.75 16.4609 7.4375 16.7344 7.125 16.7344H5.875C5.52344 16.7344 5.25 16.4609 5.25 16.1094V7.35938C5.25 7.04688 5.52344 6.73438 5.875 6.73438H9.625C11.6562 6.73438 13.375 8.45312 13.375 10.4844C13.375 12.5547 11.6562 14.2344 9.625 14.2344ZM9.625 9.23438H7.75V11.7344H9.625C10.2891 11.7344 10.875 11.1875 10.875 10.4844C10.875 9.82031 10.2891 9.23438 9.625 9.23438Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Estacionamiento</span></div>
+                    </div>
+
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 26 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M7.63281 14.6328C7.78906 14.75 8.21875 14.9844 9 14.9844C9.74219 14.9844 10.1719 14.75 10.3281 14.6328C10.9531 14.0469 11.6562 13.7344 12.3984 13.7344H13.0625C13.8047 13.7344 14.5078 14.0469 15.1328 14.6328C15.2891 14.75 15.7188 14.9844 16.5 14.9844C17.2422 14.9844 17.6719 14.75 17.8281 14.6328C18.4141 14.0859 19.0781 13.8125 19.7422 13.7734L15.3281 10.6094L16.0312 10.1016C16.1875 10.0234 16.3828 9.98438 16.5391 10.0234L20.4453 10.8438C21.4609 11.0781 22.4766 10.4141 22.6719 9.39844C22.9062 8.42188 22.2422 7.40625 21.2656 7.17188L17.3203 6.35156C16.1094 6.07812 14.8594 6.35156 13.8828 7.05469L10.7578 9.32031C10.3281 9.59375 9.97656 9.94531 9.70312 10.3359L7.00781 14.1641C7.24219 14.3203 7.4375 14.4375 7.63281 14.6328ZM24.625 16.2344H24C22.9453 16.2344 22.2031 15.9219 21.7734 15.5703C21.4609 15.2188 21.0312 14.9844 20.5625 14.9844H19.8984C19.4297 14.9844 19 15.2188 18.6875 15.5703C18.2578 15.9219 17.5156 16.2344 16.5 16.2344C15.4453 16.2344 14.7031 15.9219 14.2734 15.5703C13.9609 15.2188 13.5312 14.9844 13.0625 14.9844H12.3984C11.9297 14.9844 11.5 15.2188 11.1875 15.5703C10.7578 15.9219 10.0156 16.2344 9 16.2344C7.94531 16.2344 7.20312 15.9219 6.77344 15.5703C6.46094 15.2188 6.03125 14.9844 5.5625 14.9844H4.89844C4.42969 14.9844 4 15.2188 3.6875 15.5703C3.25781 15.9219 2.51562 16.2344 1.5 16.2344H0.875C0.523438 16.2344 0.25 16.5469 0.25 16.8594V18.1094C0.25 18.4609 0.523438 18.7344 0.875 18.7344H1.5C2.98438 18.7344 4.3125 18.2656 5.25 17.5234C6.14844 18.2656 7.47656 18.7344 9 18.7344C10.4844 18.7344 11.8125 18.2656 12.75 17.5234C13.6484 18.2656 14.9766 18.7344 16.5 18.7344C17.9844 18.7344 19.3125 18.2656 20.25 17.5234C21.1484 18.2656 22.4766 18.7344 24 18.7344H24.625C24.9375 18.7344 25.25 18.4609 25.25 18.1094V16.8594C25.25 16.5469 24.9375 16.2344 24.625 16.2344ZM4.625 12.4844C6.34375 12.4844 7.75 11.1172 7.75 9.35938C7.75 7.64062 6.34375 6.23438 4.625 6.23438C2.86719 6.23438 1.5 7.64062 1.5 9.35938C1.5 11.1172 2.86719 12.4844 4.625 12.4844Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Piscina</span></div>
+                    </div>
+
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 18 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M8.33594 2.85938C8.21875 2.03906 6.57812 2.03906 6.46094 2.89844V8.40625C6.42188 8.52344 5.875 8.52344 5.83594 8.40625C5.79688 7.42969 5.5625 2.97656 5.52344 2.85938C5.40625 2.03906 3.80469 2.03906 3.6875 2.85938C3.64844 2.97656 3.41406 7.42969 3.375 8.40625C3.33594 8.52344 2.78906 8.52344 2.75 8.40625V2.89844C2.63281 2.03906 0.992188 2.03906 0.875 2.85938C0.835938 3.01562 0.25 6.53125 0.25 7.85938C0.25 9.92969 1.30469 11.375 2.90625 11.9609L2.4375 21.2578C2.39844 21.8047 2.82812 22.2344 3.375 22.2344H5.875C6.38281 22.2344 6.8125 21.8047 6.8125 21.2578L6.30469 11.9609C7.90625 11.375 9 9.92969 9 7.85938C9 6.53125 8.375 3.01562 8.33594 2.85938ZM13.0234 13.9922L12.4375 21.2188C12.3594 21.7656 12.8281 22.2344 13.375 22.2344H15.5625C16.0703 22.2344 16.5 21.8438 16.5 21.2969V3.17188C16.5 2.66406 16.0703 2.23438 15.5625 2.23438C12.3203 2.23438 6.89062 9.22656 13.0234 13.9922Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Alimentación</span></div>
+                    </div>
+                  </div>
+
+                  <div class="orientacion-flex-c-i-g">
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 19 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M17.4375 15.125L16.1094 14.3438L17.125 14.0703C17.4375 13.9922 17.6328 13.6406 17.5547 13.3281L17.3984 12.7422C17.3203 12.4297 16.9688 12.2344 16.6562 12.3125L13.8828 13.0547L11.3828 11.6094L13.8828 10.2031L16.6562 10.9453C16.9688 11.0234 17.3203 10.8281 17.3984 10.5156L17.5547 9.92969C17.6328 9.61719 17.4375 9.26562 17.125 9.1875L16.1094 8.91406L17.4375 8.13281C17.7109 7.97656 17.8281 7.625 17.6328 7.3125L17.0469 6.25781C16.8906 5.98438 16.5 5.90625 16.2266 6.0625L14.8984 6.80469L15.1719 5.78906C15.25 5.47656 15.0547 5.16406 14.7422 5.04688L14.1562 4.89062C13.8438 4.8125 13.5312 5.00781 13.4141 5.32031L12.6719 8.09375L10.25 9.5V6.49219L12.3203 4.38281C12.5547 4.14844 12.5547 3.75781 12.3203 3.48438L11.8906 3.05469C11.6562 2.82031 11.2656 2.82031 10.9922 3.05469L10.25 3.83594V2.23438C10.25 1.92188 9.9375 1.60938 9.625 1.60938H8.375C8.02344 1.60938 7.75 1.92188 7.75 2.23438V3.83594L6.96875 3.05469C6.73438 2.82031 6.30469 2.82031 6.07031 3.05469L5.64062 3.48438C5.40625 3.75781 5.40625 4.14844 5.64062 4.38281L7.75 6.49219V9.5L5.28906 8.09375L4.54688 5.32031C4.46875 5.00781 4.11719 4.8125 3.80469 4.89062L3.21875 5.04688C2.90625 5.16406 2.71094 5.47656 2.78906 5.78906L3.0625 6.80469L1.73438 6.0625C1.46094 5.86719 1.07031 5.98438 0.914062 6.25781L0.328125 7.3125C0.132812 7.625 0.25 7.97656 0.523438 8.13281L1.85156 8.91406L0.835938 9.1875C0.523438 9.26562 0.328125 9.57812 0.40625 9.92969L0.5625 10.5156C0.640625 10.8281 0.992188 11.0234 1.30469 10.9453L4.07812 10.2031L6.57812 11.6094L4.07812 13.0547L1.30469 12.3125C0.992188 12.2344 0.640625 12.4297 0.5625 12.7422L0.40625 13.3281C0.328125 13.6406 0.523438 13.9922 0.835938 14.0703L1.85156 14.3438L0.523438 15.125C0.25 15.2812 0.132812 15.6328 0.328125 15.9453L0.914062 17C1.07031 17.2734 1.46094 17.3516 1.73438 17.1953L3.0625 16.4531L2.78906 17.4688C2.71094 17.7812 2.90625 18.0938 3.21875 18.2109L3.80469 18.3672C4.11719 18.4453 4.42969 18.25 4.54688 17.9375L5.28906 15.1641L7.71094 13.7578V16.7656L5.64062 18.875C5.36719 19.1094 5.36719 19.5 5.64062 19.7734L6.07031 20.2031C6.30469 20.4375 6.69531 20.4375 6.96875 20.2031L7.71094 19.4219V20.9844C7.71094 21.3359 8.02344 21.6094 8.33594 21.6094H9.58594C9.9375 21.6094 10.2109 21.3359 10.2109 20.9844V19.4219L10.9922 20.2031C11.2266 20.4375 11.6172 20.4375 11.8906 20.2031L12.3203 19.7344C12.5547 19.5 12.5547 19.1094 12.3203 18.875L10.25 16.7656V13.7578L12.6719 15.1641L13.4141 17.9375C13.5312 18.25 13.8438 18.4453 14.1562 18.3672L14.7422 18.2109C15.0547 18.0938 15.25 17.7812 15.1719 17.4688L14.8984 16.4531L16.2266 17.1953C16.5 17.3516 16.8906 17.2734 17.0469 16.9609L17.6328 15.9453C17.8281 15.6328 17.7109 15.2812 17.4375 15.125Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Aire acondicionado</span></div>
+                    </div>
+
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 22 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M11.25 10.3594C8.125 10.3594 3.75 15.1641 3.75 18.2109C3.75 19.5781 4.76562 20.3594 6.52344 20.3594C8.4375 20.3594 9.6875 19.3828 11.25 19.3828C12.7734 19.3828 14.0234 20.3594 15.9375 20.3594C17.6953 20.3594 18.75 19.5781 18.75 18.2109C18.75 15.1641 14.3359 10.3594 11.25 10.3594ZM5.46875 9.89062C5.07812 8.52344 3.82812 7.66406 2.69531 7.9375C1.5625 8.21094 0.9375 9.5 1.36719 10.8672C1.75781 12.2344 3.00781 13.0938 4.14062 12.8203C5.27344 12.5469 5.89844 11.2578 5.46875 9.89062ZM8.78906 9.07031C10 8.75781 10.5859 7.11719 10.1562 5.4375C9.6875 3.71875 8.32031 2.625 7.10938 2.9375C5.89844 3.25 5.3125 4.89062 5.74219 6.57031C6.21094 8.28906 7.57812 9.38281 8.78906 9.07031ZM19.7656 7.9375C18.6328 7.66406 17.3828 8.52344 16.9922 9.89062C16.5625 11.2578 17.1875 12.5469 18.3203 12.8203C19.4531 13.0938 20.7031 12.2344 21.0938 10.8672C21.5234 9.5 20.8984 8.21094 19.7656 7.9375ZM13.6719 9.07031C14.8828 9.38281 16.25 8.28906 16.7188 6.57031C17.1484 4.89062 16.5625 3.25 15.3516 2.9375C14.1406 2.625 12.7734 3.71875 12.3047 5.4375C11.875 7.11719 12.4609 8.75781 13.6719 9.07031Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Acceso a mascotas</span></div>
+                    </div>
+
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 26 21"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M15.7188 4.54688L17.1641 5.48438C17.7891 5.91406 18.4922 6.10938 19.2344 6.10938H23.0625C24.2344 6.10938 25.25 7.125 25.25 8.29688V11.6172C25.25 13.8047 23.7656 15.6797 21.6953 16.1875L17.4766 17.2422C16.1094 18.1016 14.4688 18.6094 12.75 18.6094C10.9922 18.6094 9.35156 18.1016 7.98438 17.2422L3.76562 16.1875C1.69531 15.6797 0.25 13.8047 0.25 11.6172V8.29688C0.25 7.125 1.22656 6.10938 2.4375 6.10938H6.22656C6.96875 6.10938 7.67188 5.91406 8.29688 5.48438L9.74219 4.54688C10.6406 3.96094 11.6562 3.60938 12.75 3.60938C13.8047 3.60938 14.8203 3.96094 15.7188 4.54688ZM5.40625 14.6641C4.50781 13.2969 4 11.6562 4 9.85938V7.98438H2.4375C2.24219 7.98438 2.125 8.14062 2.125 8.29688V11.6172C2.125 12.9453 2.98438 14.0391 4.23438 14.3516L5.40625 14.6641ZM23.375 11.6172V8.29688C23.375 8.14062 23.2188 7.98438 23.0625 7.98438H21.5V9.85938C21.5 11.6562 20.9531 13.2969 20.0547 14.6641L21.2266 14.3516C22.4766 14.0391 23.375 12.9453 23.375 11.6172ZM8.375 9.85938H17.125C17.4375 9.85938 17.75 9.58594 17.75 9.23438C17.75 8.92188 17.4375 8.60938 17.125 8.60938H8.375C8.02344 8.60938 7.75 8.92188 7.75 9.23438C7.75 9.58594 8.02344 9.85938 8.375 9.85938ZM8.375 11.1094C8.02344 11.1094 7.75 11.4219 7.75 11.7344C7.75 12.0859 8.02344 12.3594 8.375 12.3594H17.125C17.4375 12.3594 17.75 12.0859 17.75 11.7344C17.75 11.4219 17.4375 11.1094 17.125 11.1094H8.375ZM9.625 14.8594H15.875C16.1875 14.8594 16.5 14.5859 16.5 14.2344C16.5 13.9219 16.1875 13.6094 15.875 13.6094H9.625C9.27344 13.6094 9 13.9219 9 14.2344C9 14.5859 9.27344 14.8594 9.625 14.8594Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Uso de tapabocas</span></div>
+                    </div>
+
+                    <div class="con-d-flex">
+                      <svg
+                        width="26"
+                        height="24"
+                        viewBox="0 0 26 24"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.3125 5.35938H2.4375C1.89062 5.35938 1.5 5.78906 1.5 6.29688V10.3594H0.5625C0.367188 10.3594 0.25 10.5156 0.25 10.6719V12.5469C0.25 12.7422 0.367188 12.8594 0.5625 12.8594H1.5V16.9219C1.5 17.4688 1.89062 17.8594 2.4375 17.8594H4.3125C4.82031 17.8594 5.25 17.4688 5.25 16.9219V6.29688C5.25 5.78906 4.82031 5.35938 4.3125 5.35938ZM24.9375 10.3594H24V6.29688C24 5.78906 23.5703 5.35938 23.0625 5.35938H21.1875C20.6406 5.35938 20.25 5.78906 20.25 6.29688V16.9219C20.25 17.4688 20.6406 17.8594 21.1875 17.8594H23.0625C23.5703 17.8594 24 17.4688 24 16.9219V12.8594H24.9375C25.0938 12.8594 25.25 12.7422 25.25 12.5469V10.6719C25.25 10.5156 25.0938 10.3594 24.9375 10.3594ZM18.0625 2.85938H16.1875C15.6406 2.85938 15.25 3.28906 15.25 3.79688V10.3594H10.25V3.79688C10.25 3.28906 9.82031 2.85938 9.3125 2.85938H7.4375C6.89062 2.85938 6.5 3.28906 6.5 3.79688V19.4219C6.5 19.9688 6.89062 20.3594 7.4375 20.3594H9.3125C9.82031 20.3594 10.25 19.9688 10.25 19.4219V12.8594H15.25V19.4219C15.25 19.9688 15.6406 20.3594 16.1875 20.3594H18.0625C18.5703 20.3594 19 19.9688 19 19.4219V3.79688C19 3.28906 18.5703 2.85938 18.0625 2.85938Z"
+                          fill="#6F6F6F"
+                        />
+                      </svg>
+                      <div class="wifi"><span>Gimnasio</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <h5 class="estilo-text-h5">Habitaciones</h5>
+              </div>
+
+              <div class="mt-4">
+                <a class="tarjeta-principal color-trans" href="">
+                  <div class="primera-part"></div>
+
+                  <div class="segunda-part mb-2">
+                    <p class="text-estilo mb-2">The Pyramid Cancún</p>
                     <div>
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M25.0156 8.03906C18.1016 1.67188 7.35938 1.67188 0.445312 8.03906C0.171875 8.3125 0.171875 8.70312 0.40625 8.9375L1.73438 10.2656C2.00781 10.5 2.39844 10.5391 2.63281 10.3047C8.33594 5.07031 17.125 5.07031 22.8281 10.3047C23.1016 10.5391 23.4531 10.5 23.7266 10.2656L25.0547 8.9375C25.2891 8.70312 25.2891 8.3125 25.0156 8.03906ZM12.75 15.7344C11.3438 15.7344 10.25 16.8672 10.25 18.2344C10.25 19.6406 11.3438 20.7344 12.75 20.7344C14.1172 20.7344 15.25 19.6406 15.25 18.2344C15.25 16.8672 14.1172 15.7344 12.75 15.7344ZM20.6406 12.4922C16.1484 8.50781 9.3125 8.50781 4.82031 12.4922C4.54688 12.7266 4.54688 13.1562 4.78125 13.3906L6.14844 14.7188C6.38281 14.9531 6.73438 14.9531 7.00781 14.7578C10.2891 11.9062 15.1719 11.9062 18.4531 14.7578C18.7266 14.9531 19.0781 14.9531 19.3125 14.7188L20.6797 13.3906C20.9141 13.1562 20.9141 12.7266 20.6406 12.4922Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Wifi</span></div>
-                      </div>
-
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.875 2.98438H2.125C1.07031 2.98438 0.25 3.84375 0.25 4.85938V18.6094C0.25 19.6641 1.07031 20.4844 2.125 20.4844H15.875C16.8906 20.4844 17.75 19.6641 17.75 18.6094V4.85938C17.75 3.84375 16.8906 2.98438 15.875 2.98438ZM9.625 14.2344H7.75V16.1094C7.75 16.4609 7.4375 16.7344 7.125 16.7344H5.875C5.52344 16.7344 5.25 16.4609 5.25 16.1094V7.35938C5.25 7.04688 5.52344 6.73438 5.875 6.73438H9.625C11.6562 6.73438 13.375 8.45312 13.375 10.4844C13.375 12.5547 11.6562 14.2344 9.625 14.2344ZM9.625 9.23438H7.75V11.7344H9.625C10.2891 11.7344 10.875 11.1875 10.875 10.4844C10.875 9.82031 10.2891 9.23438 9.625 9.23438Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Estacionamiento</span></div>
-                      </div>
-
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M7.63281 14.6328C7.78906 14.75 8.21875 14.9844 9 14.9844C9.74219 14.9844 10.1719 14.75 10.3281 14.6328C10.9531 14.0469 11.6562 13.7344 12.3984 13.7344H13.0625C13.8047 13.7344 14.5078 14.0469 15.1328 14.6328C15.2891 14.75 15.7188 14.9844 16.5 14.9844C17.2422 14.9844 17.6719 14.75 17.8281 14.6328C18.4141 14.0859 19.0781 13.8125 19.7422 13.7734L15.3281 10.6094L16.0312 10.1016C16.1875 10.0234 16.3828 9.98438 16.5391 10.0234L20.4453 10.8438C21.4609 11.0781 22.4766 10.4141 22.6719 9.39844C22.9062 8.42188 22.2422 7.40625 21.2656 7.17188L17.3203 6.35156C16.1094 6.07812 14.8594 6.35156 13.8828 7.05469L10.7578 9.32031C10.3281 9.59375 9.97656 9.94531 9.70312 10.3359L7.00781 14.1641C7.24219 14.3203 7.4375 14.4375 7.63281 14.6328ZM24.625 16.2344H24C22.9453 16.2344 22.2031 15.9219 21.7734 15.5703C21.4609 15.2188 21.0312 14.9844 20.5625 14.9844H19.8984C19.4297 14.9844 19 15.2188 18.6875 15.5703C18.2578 15.9219 17.5156 16.2344 16.5 16.2344C15.4453 16.2344 14.7031 15.9219 14.2734 15.5703C13.9609 15.2188 13.5312 14.9844 13.0625 14.9844H12.3984C11.9297 14.9844 11.5 15.2188 11.1875 15.5703C10.7578 15.9219 10.0156 16.2344 9 16.2344C7.94531 16.2344 7.20312 15.9219 6.77344 15.5703C6.46094 15.2188 6.03125 14.9844 5.5625 14.9844H4.89844C4.42969 14.9844 4 15.2188 3.6875 15.5703C3.25781 15.9219 2.51562 16.2344 1.5 16.2344H0.875C0.523438 16.2344 0.25 16.5469 0.25 16.8594V18.1094C0.25 18.4609 0.523438 18.7344 0.875 18.7344H1.5C2.98438 18.7344 4.3125 18.2656 5.25 17.5234C6.14844 18.2656 7.47656 18.7344 9 18.7344C10.4844 18.7344 11.8125 18.2656 12.75 17.5234C13.6484 18.2656 14.9766 18.7344 16.5 18.7344C17.9844 18.7344 19.3125 18.2656 20.25 17.5234C21.1484 18.2656 22.4766 18.7344 24 18.7344H24.625C24.9375 18.7344 25.25 18.4609 25.25 18.1094V16.8594C25.25 16.5469 24.9375 16.2344 24.625 16.2344ZM4.625 12.4844C6.34375 12.4844 7.75 11.1172 7.75 9.35938C7.75 7.64062 6.34375 6.23438 4.625 6.23438C2.86719 6.23438 1.5 7.64062 1.5 9.35938C1.5 11.1172 2.86719 12.4844 4.625 12.4844Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Piscina</span></div>
-                      </div>
-
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 18 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M8.33594 2.85938C8.21875 2.03906 6.57812 2.03906 6.46094 2.89844V8.40625C6.42188 8.52344 5.875 8.52344 5.83594 8.40625C5.79688 7.42969 5.5625 2.97656 5.52344 2.85938C5.40625 2.03906 3.80469 2.03906 3.6875 2.85938C3.64844 2.97656 3.41406 7.42969 3.375 8.40625C3.33594 8.52344 2.78906 8.52344 2.75 8.40625V2.89844C2.63281 2.03906 0.992188 2.03906 0.875 2.85938C0.835938 3.01562 0.25 6.53125 0.25 7.85938C0.25 9.92969 1.30469 11.375 2.90625 11.9609L2.4375 21.2578C2.39844 21.8047 2.82812 22.2344 3.375 22.2344H5.875C6.38281 22.2344 6.8125 21.8047 6.8125 21.2578L6.30469 11.9609C7.90625 11.375 9 9.92969 9 7.85938C9 6.53125 8.375 3.01562 8.33594 2.85938ZM13.0234 13.9922L12.4375 21.2188C12.3594 21.7656 12.8281 22.2344 13.375 22.2344H15.5625C16.0703 22.2344 16.5 21.8438 16.5 21.2969V3.17188C16.5 2.66406 16.0703 2.23438 15.5625 2.23438C12.3203 2.23438 6.89062 9.22656 13.0234 13.9922Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Alimentación</span></div>
-                      </div>
-                          
+                      <span class="pad-fondo-c-g">
+                        <i class="fa-solid fa-check" style="color: #ff0000"></i>
+                        <span class="text-cancel">Cancelación gratuita</span>
+                      </span>
                     </div>
 
-                    <div class="orientacion-flex-c-i-g">
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 19 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M17.4375 15.125L16.1094 14.3438L17.125 14.0703C17.4375 13.9922 17.6328 13.6406 17.5547 13.3281L17.3984 12.7422C17.3203 12.4297 16.9688 12.2344 16.6562 12.3125L13.8828 13.0547L11.3828 11.6094L13.8828 10.2031L16.6562 10.9453C16.9688 11.0234 17.3203 10.8281 17.3984 10.5156L17.5547 9.92969C17.6328 9.61719 17.4375 9.26562 17.125 9.1875L16.1094 8.91406L17.4375 8.13281C17.7109 7.97656 17.8281 7.625 17.6328 7.3125L17.0469 6.25781C16.8906 5.98438 16.5 5.90625 16.2266 6.0625L14.8984 6.80469L15.1719 5.78906C15.25 5.47656 15.0547 5.16406 14.7422 5.04688L14.1562 4.89062C13.8438 4.8125 13.5312 5.00781 13.4141 5.32031L12.6719 8.09375L10.25 9.5V6.49219L12.3203 4.38281C12.5547 4.14844 12.5547 3.75781 12.3203 3.48438L11.8906 3.05469C11.6562 2.82031 11.2656 2.82031 10.9922 3.05469L10.25 3.83594V2.23438C10.25 1.92188 9.9375 1.60938 9.625 1.60938H8.375C8.02344 1.60938 7.75 1.92188 7.75 2.23438V3.83594L6.96875 3.05469C6.73438 2.82031 6.30469 2.82031 6.07031 3.05469L5.64062 3.48438C5.40625 3.75781 5.40625 4.14844 5.64062 4.38281L7.75 6.49219V9.5L5.28906 8.09375L4.54688 5.32031C4.46875 5.00781 4.11719 4.8125 3.80469 4.89062L3.21875 5.04688C2.90625 5.16406 2.71094 5.47656 2.78906 5.78906L3.0625 6.80469L1.73438 6.0625C1.46094 5.86719 1.07031 5.98438 0.914062 6.25781L0.328125 7.3125C0.132812 7.625 0.25 7.97656 0.523438 8.13281L1.85156 8.91406L0.835938 9.1875C0.523438 9.26562 0.328125 9.57812 0.40625 9.92969L0.5625 10.5156C0.640625 10.8281 0.992188 11.0234 1.30469 10.9453L4.07812 10.2031L6.57812 11.6094L4.07812 13.0547L1.30469 12.3125C0.992188 12.2344 0.640625 12.4297 0.5625 12.7422L0.40625 13.3281C0.328125 13.6406 0.523438 13.9922 0.835938 14.0703L1.85156 14.3438L0.523438 15.125C0.25 15.2812 0.132812 15.6328 0.328125 15.9453L0.914062 17C1.07031 17.2734 1.46094 17.3516 1.73438 17.1953L3.0625 16.4531L2.78906 17.4688C2.71094 17.7812 2.90625 18.0938 3.21875 18.2109L3.80469 18.3672C4.11719 18.4453 4.42969 18.25 4.54688 17.9375L5.28906 15.1641L7.71094 13.7578V16.7656L5.64062 18.875C5.36719 19.1094 5.36719 19.5 5.64062 19.7734L6.07031 20.2031C6.30469 20.4375 6.69531 20.4375 6.96875 20.2031L7.71094 19.4219V20.9844C7.71094 21.3359 8.02344 21.6094 8.33594 21.6094H9.58594C9.9375 21.6094 10.2109 21.3359 10.2109 20.9844V19.4219L10.9922 20.2031C11.2266 20.4375 11.6172 20.4375 11.8906 20.2031L12.3203 19.7344C12.5547 19.5 12.5547 19.1094 12.3203 18.875L10.25 16.7656V13.7578L12.6719 15.1641L13.4141 17.9375C13.5312 18.25 13.8438 18.4453 14.1562 18.3672L14.7422 18.2109C15.0547 18.0938 15.25 17.7812 15.1719 17.4688L14.8984 16.4531L16.2266 17.1953C16.5 17.3516 16.8906 17.2734 17.0469 16.9609L17.6328 15.9453C17.8281 15.6328 17.7109 15.2812 17.4375 15.125Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Aire acondicionado</span></div>
-                      </div>
-
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 22 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M11.25 10.3594C8.125 10.3594 3.75 15.1641 3.75 18.2109C3.75 19.5781 4.76562 20.3594 6.52344 20.3594C8.4375 20.3594 9.6875 19.3828 11.25 19.3828C12.7734 19.3828 14.0234 20.3594 15.9375 20.3594C17.6953 20.3594 18.75 19.5781 18.75 18.2109C18.75 15.1641 14.3359 10.3594 11.25 10.3594ZM5.46875 9.89062C5.07812 8.52344 3.82812 7.66406 2.69531 7.9375C1.5625 8.21094 0.9375 9.5 1.36719 10.8672C1.75781 12.2344 3.00781 13.0938 4.14062 12.8203C5.27344 12.5469 5.89844 11.2578 5.46875 9.89062ZM8.78906 9.07031C10 8.75781 10.5859 7.11719 10.1562 5.4375C9.6875 3.71875 8.32031 2.625 7.10938 2.9375C5.89844 3.25 5.3125 4.89062 5.74219 6.57031C6.21094 8.28906 7.57812 9.38281 8.78906 9.07031ZM19.7656 7.9375C18.6328 7.66406 17.3828 8.52344 16.9922 9.89062C16.5625 11.2578 17.1875 12.5469 18.3203 12.8203C19.4531 13.0938 20.7031 12.2344 21.0938 10.8672C21.5234 9.5 20.8984 8.21094 19.7656 7.9375ZM13.6719 9.07031C14.8828 9.38281 16.25 8.28906 16.7188 6.57031C17.1484 4.89062 16.5625 3.25 15.3516 2.9375C14.1406 2.625 12.7734 3.71875 12.3047 5.4375C11.875 7.11719 12.4609 8.75781 13.6719 9.07031Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Acceso a mascotas</span></div>
-                      </div>
-
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 26 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M15.7188 4.54688L17.1641 5.48438C17.7891 5.91406 18.4922 6.10938 19.2344 6.10938H23.0625C24.2344 6.10938 25.25 7.125 25.25 8.29688V11.6172C25.25 13.8047 23.7656 15.6797 21.6953 16.1875L17.4766 17.2422C16.1094 18.1016 14.4688 18.6094 12.75 18.6094C10.9922 18.6094 9.35156 18.1016 7.98438 17.2422L3.76562 16.1875C1.69531 15.6797 0.25 13.8047 0.25 11.6172V8.29688C0.25 7.125 1.22656 6.10938 2.4375 6.10938H6.22656C6.96875 6.10938 7.67188 5.91406 8.29688 5.48438L9.74219 4.54688C10.6406 3.96094 11.6562 3.60938 12.75 3.60938C13.8047 3.60938 14.8203 3.96094 15.7188 4.54688ZM5.40625 14.6641C4.50781 13.2969 4 11.6562 4 9.85938V7.98438H2.4375C2.24219 7.98438 2.125 8.14062 2.125 8.29688V11.6172C2.125 12.9453 2.98438 14.0391 4.23438 14.3516L5.40625 14.6641ZM23.375 11.6172V8.29688C23.375 8.14062 23.2188 7.98438 23.0625 7.98438H21.5V9.85938C21.5 11.6562 20.9531 13.2969 20.0547 14.6641L21.2266 14.3516C22.4766 14.0391 23.375 12.9453 23.375 11.6172ZM8.375 9.85938H17.125C17.4375 9.85938 17.75 9.58594 17.75 9.23438C17.75 8.92188 17.4375 8.60938 17.125 8.60938H8.375C8.02344 8.60938 7.75 8.92188 7.75 9.23438C7.75 9.58594 8.02344 9.85938 8.375 9.85938ZM8.375 11.1094C8.02344 11.1094 7.75 11.4219 7.75 11.7344C7.75 12.0859 8.02344 12.3594 8.375 12.3594H17.125C17.4375 12.3594 17.75 12.0859 17.75 11.7344C17.75 11.4219 17.4375 11.1094 17.125 11.1094H8.375ZM9.625 14.8594H15.875C16.1875 14.8594 16.5 14.5859 16.5 14.2344C16.5 13.9219 16.1875 13.6094 15.875 13.6094H9.625C9.27344 13.6094 9 13.9219 9 14.2344C9 14.5859 9.27344 14.8594 9.625 14.8594Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Uso de tapabocas</span></div>
-                      </div>
-
-                      <div class="con-d-flex">
-                        <svg width="26" height="24" viewBox="0 0 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M4.3125 5.35938H2.4375C1.89062 5.35938 1.5 5.78906 1.5 6.29688V10.3594H0.5625C0.367188 10.3594 0.25 10.5156 0.25 10.6719V12.5469C0.25 12.7422 0.367188 12.8594 0.5625 12.8594H1.5V16.9219C1.5 17.4688 1.89062 17.8594 2.4375 17.8594H4.3125C4.82031 17.8594 5.25 17.4688 5.25 16.9219V6.29688C5.25 5.78906 4.82031 5.35938 4.3125 5.35938ZM24.9375 10.3594H24V6.29688C24 5.78906 23.5703 5.35938 23.0625 5.35938H21.1875C20.6406 5.35938 20.25 5.78906 20.25 6.29688V16.9219C20.25 17.4688 20.6406 17.8594 21.1875 17.8594H23.0625C23.5703 17.8594 24 17.4688 24 16.9219V12.8594H24.9375C25.0938 12.8594 25.25 12.7422 25.25 12.5469V10.6719C25.25 10.5156 25.0938 10.3594 24.9375 10.3594ZM18.0625 2.85938H16.1875C15.6406 2.85938 15.25 3.28906 15.25 3.79688V10.3594H10.25V3.79688C10.25 3.28906 9.82031 2.85938 9.3125 2.85938H7.4375C6.89062 2.85938 6.5 3.28906 6.5 3.79688V19.4219C6.5 19.9688 6.89062 20.3594 7.4375 20.3594H9.3125C9.82031 20.3594 10.25 19.9688 10.25 19.4219V12.8594H15.25V19.4219C15.25 19.9688 15.6406 20.3594 16.1875 20.3594H18.0625C18.5703 20.3594 19 19.9688 19 19.4219V3.79688C19 3.28906 18.5703 2.85938 18.0625 2.85938Z" fill="#6F6F6F"/>
-                          </svg>
-                          <div class="wifi"><span>Gimnasio</span></div>                      
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-                <div>
-                  <h5 class="estilo-text-h5">Habitaciones</h5>
-                </div>
-                
-                <div class="mt-4">
-
-                  <a class="tarjeta-principal color-trans" href="">
-                    <div class="primera-part">
-                    </div>
-        
-                    <div class="segunda-part mb-2 ">
-                      <p class="text-estilo mb-2">The Pyramid Cancún</p>
+                    <div class="">
                       <div>
-                        <span class="pad-fondo-c-g"> 
-                         <i class="fa-solid fa-check" style="color: #ff0000"></i>
-                         <span class="text-cancel">Cancelación gratuita</span>
-                       </span>
-                       </div>
-        
-                      <div class="">
-                        <div>
-                          <svg width="18" height="13" viewBox="0 0 18 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M17.0977 4.66992C12.6035 0.53125 5.62109 0.53125 1.12695 4.66992C0.949219 4.84766 0.949219 5.10156 1.10156 5.25391L1.96484 6.11719C2.14258 6.26953 2.39648 6.29492 2.54883 6.14258C6.25586 2.74023 11.9688 2.74023 15.6758 6.14258C15.8535 6.29492 16.082 6.26953 16.2598 6.11719L17.123 5.25391C17.2754 5.10156 17.2754 4.84766 17.0977 4.66992ZM9.125 9.67188C8.21094 9.67188 7.5 10.4082 7.5 11.2969C7.5 12.2109 8.21094 12.9219 9.125 12.9219C10.0137 12.9219 10.75 12.2109 10.75 11.2969C10.75 10.4082 10.0137 9.67188 9.125 9.67188ZM14.2539 7.56445C11.334 4.97461 6.89062 4.97461 3.9707 7.56445C3.79297 7.7168 3.79297 7.99609 3.94531 8.14844L4.83398 9.01172C4.98633 9.16406 5.21484 9.16406 5.39258 9.03711C7.52539 7.18359 10.6992 7.18359 12.832 9.03711C13.0098 9.16406 13.2383 9.16406 13.3906 9.01172L14.2793 8.14844C14.4316 7.99609 14.4316 7.7168 14.2539 7.56445Z" fill="#FF0000"/>
-                            </svg>
-                            <span class="text-precios">Wifi gratis</span>                      
-                        </div>
+                        <svg
+                          width="18"
+                          height="13"
+                          viewBox="0 0 18 13"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M17.0977 4.66992C12.6035 0.53125 5.62109 0.53125 1.12695 4.66992C0.949219 4.84766 0.949219 5.10156 1.10156 5.25391L1.96484 6.11719C2.14258 6.26953 2.39648 6.29492 2.54883 6.14258C6.25586 2.74023 11.9688 2.74023 15.6758 6.14258C15.8535 6.29492 16.082 6.26953 16.2598 6.11719L17.123 5.25391C17.2754 5.10156 17.2754 4.84766 17.0977 4.66992ZM9.125 9.67188C8.21094 9.67188 7.5 10.4082 7.5 11.2969C7.5 12.2109 8.21094 12.9219 9.125 12.9219C10.0137 12.9219 10.75 12.2109 10.75 11.2969C10.75 10.4082 10.0137 9.67188 9.125 9.67188ZM14.2539 7.56445C11.334 4.97461 6.89062 4.97461 3.9707 7.56445C3.79297 7.7168 3.79297 7.99609 3.94531 8.14844L4.83398 9.01172C4.98633 9.16406 5.21484 9.16406 5.39258 9.03711C7.52539 7.18359 10.6992 7.18359 12.832 9.03711C13.0098 9.16406 13.2383 9.16406 13.3906 9.01172L14.2793 8.14844C14.4316 7.99609 14.4316 7.7168 14.2539 7.56445Z"
+                            fill="#FF0000"
+                          />
+                        </svg>
+                        <span class="text-precios">Wifi gratis</span>
+                      </div>
 
-                        <div>
-                          <svg width="13" height="14" viewBox="0 0 13 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M12.1719 9.41016L11.3086 8.90234L11.9688 8.72461C12.1719 8.67383 12.2988 8.44531 12.248 8.24219L12.1465 7.86133C12.0957 7.6582 11.8672 7.53125 11.6641 7.58203L9.86133 8.06445L8.23633 7.125L9.86133 6.21094L11.6641 6.69336C11.8672 6.74414 12.0957 6.61719 12.1465 6.41406L12.248 6.0332C12.2988 5.83008 12.1719 5.60156 11.9688 5.55078L11.3086 5.37305L12.1719 4.86523C12.3496 4.76367 12.4258 4.53516 12.2988 4.33203L11.918 3.64648C11.8164 3.46875 11.5625 3.41797 11.3848 3.51953L10.5215 4.00195L10.6992 3.3418C10.75 3.13867 10.623 2.93555 10.4199 2.85938L10.0391 2.75781C9.83594 2.70703 9.63281 2.83398 9.55664 3.03711L9.07422 4.83984L7.5 5.75391V3.79883L8.8457 2.42773C8.99805 2.27539 8.99805 2.02148 8.8457 1.84375L8.56641 1.56445C8.41406 1.41211 8.16016 1.41211 7.98242 1.56445L7.5 2.07227V1.03125C7.5 0.828125 7.29688 0.625 7.09375 0.625H6.28125C6.05273 0.625 5.875 0.828125 5.875 1.03125V2.07227L5.36719 1.56445C5.21484 1.41211 4.93555 1.41211 4.7832 1.56445L4.50391 1.84375C4.35156 2.02148 4.35156 2.27539 4.50391 2.42773L5.875 3.79883V5.75391L4.27539 4.83984L3.79297 3.03711C3.74219 2.83398 3.51367 2.70703 3.31055 2.75781L2.92969 2.85938C2.72656 2.93555 2.59961 3.13867 2.65039 3.3418L2.82812 4.00195L1.96484 3.51953C1.78711 3.39258 1.5332 3.46875 1.43164 3.64648L1.05078 4.33203C0.923828 4.53516 1 4.76367 1.17773 4.86523L2.04102 5.37305L1.38086 5.55078C1.17773 5.60156 1.05078 5.80469 1.10156 6.0332L1.20312 6.41406C1.25391 6.61719 1.48242 6.74414 1.68555 6.69336L3.48828 6.21094L5.11328 7.125L3.48828 8.06445L1.68555 7.58203C1.48242 7.53125 1.25391 7.6582 1.20312 7.86133L1.10156 8.24219C1.05078 8.44531 1.17773 8.67383 1.38086 8.72461L2.04102 8.90234L1.17773 9.41016C1 9.51172 0.923828 9.74023 1.05078 9.94336L1.43164 10.6289C1.5332 10.8066 1.78711 10.8574 1.96484 10.7559L2.82812 10.2734L2.65039 10.9336C2.59961 11.1367 2.72656 11.3398 2.92969 11.416L3.31055 11.5176C3.51367 11.5684 3.7168 11.4414 3.79297 11.2383L4.27539 9.43555L5.84961 8.52148V10.4766L4.50391 11.8477C4.32617 12 4.32617 12.2539 4.50391 12.4316L4.7832 12.7109C4.93555 12.8633 5.18945 12.8633 5.36719 12.7109L5.84961 12.2031V13.2188C5.84961 13.4473 6.05273 13.625 6.25586 13.625H7.06836C7.29688 13.625 7.47461 13.4473 7.47461 13.2188V12.2031L7.98242 12.7109C8.13477 12.8633 8.38867 12.8633 8.56641 12.7109L8.8457 12.4062C8.99805 12.2539 8.99805 12 8.8457 11.8477L7.5 10.4766V8.52148L9.07422 9.43555L9.55664 11.2383C9.63281 11.4414 9.83594 11.5684 10.0391 11.5176L10.4199 11.416C10.623 11.3398 10.75 11.1367 10.6992 10.9336L10.5215 10.2734L11.3848 10.7559C11.5625 10.8574 11.8164 10.8066 11.918 10.6035L12.2988 9.94336C12.4258 9.74023 12.3496 9.51172 12.1719 9.41016Z" fill="#FF0000"/>
-                            </svg>
-                            <span class="text-precios">Aire acondicionado</span>
-                        </div>
+                      <div>
+                        <svg
+                          width="13"
+                          height="14"
+                          viewBox="0 0 13 14"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M12.1719 9.41016L11.3086 8.90234L11.9688 8.72461C12.1719 8.67383 12.2988 8.44531 12.248 8.24219L12.1465 7.86133C12.0957 7.6582 11.8672 7.53125 11.6641 7.58203L9.86133 8.06445L8.23633 7.125L9.86133 6.21094L11.6641 6.69336C11.8672 6.74414 12.0957 6.61719 12.1465 6.41406L12.248 6.0332C12.2988 5.83008 12.1719 5.60156 11.9688 5.55078L11.3086 5.37305L12.1719 4.86523C12.3496 4.76367 12.4258 4.53516 12.2988 4.33203L11.918 3.64648C11.8164 3.46875 11.5625 3.41797 11.3848 3.51953L10.5215 4.00195L10.6992 3.3418C10.75 3.13867 10.623 2.93555 10.4199 2.85938L10.0391 2.75781C9.83594 2.70703 9.63281 2.83398 9.55664 3.03711L9.07422 4.83984L7.5 5.75391V3.79883L8.8457 2.42773C8.99805 2.27539 8.99805 2.02148 8.8457 1.84375L8.56641 1.56445C8.41406 1.41211 8.16016 1.41211 7.98242 1.56445L7.5 2.07227V1.03125C7.5 0.828125 7.29688 0.625 7.09375 0.625H6.28125C6.05273 0.625 5.875 0.828125 5.875 1.03125V2.07227L5.36719 1.56445C5.21484 1.41211 4.93555 1.41211 4.7832 1.56445L4.50391 1.84375C4.35156 2.02148 4.35156 2.27539 4.50391 2.42773L5.875 3.79883V5.75391L4.27539 4.83984L3.79297 3.03711C3.74219 2.83398 3.51367 2.70703 3.31055 2.75781L2.92969 2.85938C2.72656 2.93555 2.59961 3.13867 2.65039 3.3418L2.82812 4.00195L1.96484 3.51953C1.78711 3.39258 1.5332 3.46875 1.43164 3.64648L1.05078 4.33203C0.923828 4.53516 1 4.76367 1.17773 4.86523L2.04102 5.37305L1.38086 5.55078C1.17773 5.60156 1.05078 5.80469 1.10156 6.0332L1.20312 6.41406C1.25391 6.61719 1.48242 6.74414 1.68555 6.69336L3.48828 6.21094L5.11328 7.125L3.48828 8.06445L1.68555 7.58203C1.48242 7.53125 1.25391 7.6582 1.20312 7.86133L1.10156 8.24219C1.05078 8.44531 1.17773 8.67383 1.38086 8.72461L2.04102 8.90234L1.17773 9.41016C1 9.51172 0.923828 9.74023 1.05078 9.94336L1.43164 10.6289C1.5332 10.8066 1.78711 10.8574 1.96484 10.7559L2.82812 10.2734L2.65039 10.9336C2.59961 11.1367 2.72656 11.3398 2.92969 11.416L3.31055 11.5176C3.51367 11.5684 3.7168 11.4414 3.79297 11.2383L4.27539 9.43555L5.84961 8.52148V10.4766L4.50391 11.8477C4.32617 12 4.32617 12.2539 4.50391 12.4316L4.7832 12.7109C4.93555 12.8633 5.18945 12.8633 5.36719 12.7109L5.84961 12.2031V13.2188C5.84961 13.4473 6.05273 13.625 6.25586 13.625H7.06836C7.29688 13.625 7.47461 13.4473 7.47461 13.2188V12.2031L7.98242 12.7109C8.13477 12.8633 8.38867 12.8633 8.56641 12.7109L8.8457 12.4062C8.99805 12.2539 8.99805 12 8.8457 11.8477L7.5 10.4766V8.52148L9.07422 9.43555L9.55664 11.2383C9.63281 11.4414 9.83594 11.5684 10.0391 11.5176L10.4199 11.416C10.623 11.3398 10.75 11.1367 10.6992 10.9336L10.5215 10.2734L11.3848 10.7559C11.5625 10.8574 11.8164 10.8066 11.918 10.6035L12.2988 9.94336C12.4258 9.74023 12.3496 9.51172 12.1719 9.41016Z"
+                            fill="#FF0000"
+                          />
+                        </svg>
+                        <span class="text-precios">Aire acondicionado</span>
+                      </div>
 
                       <div>
                         <span class="text-precios">Comodidades </span>
                         <span class="ver-mas">ver mas</span>
                       </div>
-                        
+                    </div>
+
+                    <div class="c-separador">
+                      <hr class="separador" />
+                    </div>
+
+                    <div class="d-de-precios mb-2">
+                      <div>
+                        <span class="text-precios">Publica</span>
+                        <p class="text-precio-p mb-1 mt-1">COP 21.750.000</p>
+                        <span class="text-precios">3 noches, 2 personas</span>
                       </div>
 
-        
-                      <div class="c-separador">
-                        <hr class="separador" />
-                      </div>
-        
-                      <div class="d-de-precios mb-2">
-                        <div>
-                          <span class="text-precios">Publica</span>
-                            <p class="text-precio-p mb-1 mt-1">COP 21.750.000</p>
-                            <span class="text-precios">3 noches, 2 personas</span>
-                        </div>
-        
-                        <div class="vr s-pm-pm"></div>
-        
-                        <div class="pt-2">
-                          <span class="text-precios orientacion-flex">Publica</span>
-                          <p class="text-precio-p mb-1 mt-1 orientacion-flex">COP 21.750.000</p>
-                          <span class="text-precios p-precio-two orientacion-flex">3 noches, 2 personas</span>
-                        </div>
-                      </div>
-                    </div>
-        
-                    <div class="separa-vertical">
-                        <div class="vr tamano-vr"></div>
-                    </div>
-        
-                    <div class="tercera-part">
-                      <div class="bg-flooter-two">
-                        <svg
-                          width="42"
-                          height="31"
-                          viewBox="0 0 28 27"
-                          fill="none"
-                          xmlns="http://www.w3.org/2000/svg"
+                      <div class="vr s-pm-pm"></div>
+
+                      <div class="pt-2">
+                        <span class="text-precios orientacion-flex"
+                          >Publica</span
                         >
-                          <path
-                            d="M14 27C21.4558 27 27.5 20.9558 27.5 13.5C27.5 6.04416 21.4558 0 14 0C6.54416 0 0.5 6.04416 0.5 13.5C0.5 20.9558 6.54416 27 14 27Z"
-                            fill="#FF0000"
-                          ></path>
-                          <path
-                            d="M11.3779 9.62637C10.982 9.16783 10.5497 8.8241 10.0803 8.59517C9.59243 8.3659 9.077 8.25143 8.53432 8.25143C7.52185 8.25143 6.66609 8.7035 5.9667 9.60763C5.25777 10.5118 4.90382 11.6322 4.90382 12.969C4.90382 14.0132 5.00772 14.9456 5.31126 15.773C5.60559 16.6009 6.09071 17.2601 6.67052 17.7438C7.2316 18.2405 7.88058 18.4885 8.6171 18.4885C9.70281 18.4885 10.6325 18.0109 11.4058 17.056L14.4572 20.6691C14.1073 21.1784 12.9841 22.2577 12.3583 22.6522C11.7233 23.047 11.0699 23.3396 10.3981 23.5307C9.72632 23.7219 9.10494 23.8172 8.53432 23.8172C6.93284 23.8172 5.52009 23.3522 4.29641 22.4229C3.07239 21.4806 2.1335 20.2457 1.4801 18.7178C0.826701 17.164 0.5 15.5026 0.5 13.7324C0.5 12.1156 0.697928 10.6511 1.09344 9.33953C1.49816 8.00275 2.05515 6.85674 2.76374 5.90185C3.46313 4.9725 4.31446 4.24007 5.31773 3.70556C6.3118 3.18366 7.38354 2.92236 8.53432 2.92236C9.4732 2.92236 10.3886 3.12608 11.2815 3.53352C12.1832 3.95357 13.8828 5.38744 14.573 6.15156L11.3779 9.62637Z"
-                            fill="white"
-                          ></path>
-                        </svg>
-        
-                        <div class="cont-part-for">
-                          <p class="text-flooter-two">
-                            Ser afiliado CyberCard te permitirá obtener en esta reserva, un
-                            <spa class="ahorro-COP">Ahorro de COP 250.000</spa>
-                          </p>
-                        </div>
-                      </div>
-        
-                      <div class="posi-botton-s">
-                        <span class="btn-dis">Seleccionar</span>
+                        <p class="text-precio-p mb-1 mt-1 orientacion-flex">
+                          COP 21.750.000
+                        </p>
+                        <span class="text-precios p-precio-two orientacion-flex"
+                          >3 noches, 2 personas</span
+                        >
                       </div>
                     </div>
-                  </a>
-                </div>
+                  </div>
 
+                  <div class="separa-vertical">
+                    <div class="vr tamano-vr"></div>
+                  </div>
+
+                  <div class="tercera-part">
+                    <div class="bg-flooter-two">
+                      <svg
+                        width="42"
+                        height="31"
+                        viewBox="0 0 28 27"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M14 27C21.4558 27 27.5 20.9558 27.5 13.5C27.5 6.04416 21.4558 0 14 0C6.54416 0 0.5 6.04416 0.5 13.5C0.5 20.9558 6.54416 27 14 27Z"
+                          fill="#FF0000"
+                        ></path>
+                        <path
+                          d="M11.3779 9.62637C10.982 9.16783 10.5497 8.8241 10.0803 8.59517C9.59243 8.3659 9.077 8.25143 8.53432 8.25143C7.52185 8.25143 6.66609 8.7035 5.9667 9.60763C5.25777 10.5118 4.90382 11.6322 4.90382 12.969C4.90382 14.0132 5.00772 14.9456 5.31126 15.773C5.60559 16.6009 6.09071 17.2601 6.67052 17.7438C7.2316 18.2405 7.88058 18.4885 8.6171 18.4885C9.70281 18.4885 10.6325 18.0109 11.4058 17.056L14.4572 20.6691C14.1073 21.1784 12.9841 22.2577 12.3583 22.6522C11.7233 23.047 11.0699 23.3396 10.3981 23.5307C9.72632 23.7219 9.10494 23.8172 8.53432 23.8172C6.93284 23.8172 5.52009 23.3522 4.29641 22.4229C3.07239 21.4806 2.1335 20.2457 1.4801 18.7178C0.826701 17.164 0.5 15.5026 0.5 13.7324C0.5 12.1156 0.697928 10.6511 1.09344 9.33953C1.49816 8.00275 2.05515 6.85674 2.76374 5.90185C3.46313 4.9725 4.31446 4.24007 5.31773 3.70556C6.3118 3.18366 7.38354 2.92236 8.53432 2.92236C9.4732 2.92236 10.3886 3.12608 11.2815 3.53352C12.1832 3.95357 13.8828 5.38744 14.573 6.15156L11.3779 9.62637Z"
+                          fill="white"
+                        ></path>
+                      </svg>
+
+                      <div class="cont-part-for">
+                        <p class="text-flooter-two">
+                          Ser afiliado CyberCard te permitirá obtener en esta
+                          reserva, un
+                          <spa class="ahorro-COP">Ahorro de COP 250.000</spa>
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="posi-botton-s">
+                      <span class="btn-dis">Seleccionar</span>
+                    </div>
+                  </div>
+                </a>
               </div>
             </div>
+          </div>
 
-            <!-- Cuerpo izq galeria  -->
-            
-            <div class="col-2 p-0">
-             <div class="container-part-derecha">
+          <!-- Cuerpo izq galeria  -->
+
+          <div class="col-2 p-0">
+            <div class="container-part-derecha">
               <div class="contenedor-colum-izq-galery mt-3">
                 <div>
                   <p class="estilo-p-c-i-g">Habitación Estándar</p>
@@ -378,15 +506,24 @@
                 </div>
 
                 <div class="separador-c-i">
-                  <hr class="separador-i-t">
+                  <hr class="separador-i-t" />
                 </div>
 
                 <div class="d-p-c-i container-info-hotel">
                   <div class="pe-4">
-                    <svg width="12" height="15" viewBox="0 0 12 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M5.66016 1.1875C5.57812 0.613281 4.42969 0.613281 4.34766 1.21484V5.07031C4.32031 5.15234 3.9375 5.15234 3.91016 5.07031C3.88281 4.38672 3.71875 1.26953 3.69141 1.1875C3.60938 0.613281 2.48828 0.613281 2.40625 1.1875C2.37891 1.26953 2.21484 4.38672 2.1875 5.07031C2.16016 5.15234 1.77734 5.15234 1.75 5.07031V1.21484C1.66797 0.613281 0.519531 0.613281 0.4375 1.1875C0.410156 1.29688 0 3.75781 0 4.6875C0 6.13672 0.738281 7.14844 1.85938 7.55859L1.53125 14.0664C1.50391 14.4492 1.80469 14.75 2.1875 14.75H3.9375C4.29297 14.75 4.59375 14.4492 4.59375 14.0664L4.23828 7.55859C5.35938 7.14844 6.125 6.13672 6.125 4.6875C6.125 3.75781 5.6875 1.29688 5.66016 1.1875ZM8.94141 8.98047L8.53125 14.0391C8.47656 14.4219 8.80469 14.75 9.1875 14.75H10.7188C11.0742 14.75 11.375 14.4766 11.375 14.0938V1.40625C11.375 1.05078 11.0742 0.75 10.7188 0.75C8.44922 0.75 4.64844 5.64453 8.94141 8.98047Z" fill="#FF0000"/>
-                      </svg>
-                      
+                    <svg
+                      width="12"
+                      height="15"
+                      viewBox="0 0 12 15"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M5.66016 1.1875C5.57812 0.613281 4.42969 0.613281 4.34766 1.21484V5.07031C4.32031 5.15234 3.9375 5.15234 3.91016 5.07031C3.88281 4.38672 3.71875 1.26953 3.69141 1.1875C3.60938 0.613281 2.48828 0.613281 2.40625 1.1875C2.37891 1.26953 2.21484 4.38672 2.1875 5.07031C2.16016 5.15234 1.77734 5.15234 1.75 5.07031V1.21484C1.66797 0.613281 0.519531 0.613281 0.4375 1.1875C0.410156 1.29688 0 3.75781 0 4.6875C0 6.13672 0.738281 7.14844 1.85938 7.55859L1.53125 14.0664C1.50391 14.4492 1.80469 14.75 2.1875 14.75H3.9375C4.29297 14.75 4.59375 14.4492 4.59375 14.0664L4.23828 7.55859C5.35938 7.14844 6.125 6.13672 6.125 4.6875C6.125 3.75781 5.6875 1.29688 5.66016 1.1875ZM8.94141 8.98047L8.53125 14.0391C8.47656 14.4219 8.80469 14.75 9.1875 14.75H10.7188C11.0742 14.75 11.375 14.4766 11.375 14.0938V1.40625C11.375 1.05078 11.0742 0.75 10.7188 0.75C8.44922 0.75 4.64844 5.64453 8.94141 8.98047Z"
+                        fill="#FF0000"
+                      />
+                    </svg>
+
                     <span class="tamano-span">Incluye desayuno</span>
                   </div>
 
@@ -397,7 +534,7 @@
                 </div>
 
                 <div class="separador-c-i">
-                  <hr class="separador-i-t">
+                  <hr class="separador-i-t" />
                 </div>
 
                 <div class="d-p-c-i container-info-hotel">
@@ -412,11 +549,11 @@
                   </div>
                 </div>
 
-                <div>
-                  <hr class="separador">
+                <div class="separador-c-i">
+                  <hr class="separador-i-t" />
                 </div>
 
-                <div>
+                <div class="d-p-c-i container-info-hotel">
                   <div>
                     <span>Total</span>
                   </div>
@@ -427,29 +564,47 @@
                 </div>
 
                 <a href="#">
-                  <div>Reservar habitación</div>
+                  <div class="btn-dis posicion-btn-selec mt-3">
+                    Reservar habitación
+                  </div>
                 </a>
 
-                <div>
-                    <span>Incluye impuestos, tasas y cargos <span>excepto el IVA</span></span>
+                <div class="posicion-btn-selec px-3 mt-3">
+                  <span class="estilo-span-flooter-c-d-g"
+                    >Incluye impuestos, tasas y cargos
+                    <span class="ex-el-iva">excepto el IVA</span></span
+                  >
                 </div>
-
               </div>
-             </div>
+            </div>
 
-              <div class="cont-ser-afiliado">
-                <div>
-                  <svg width="33" height="38" viewBox="0 0 33 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M16.25 4.10986C7.6875 4.10986 0.75 11.1099 0.75 19.6099C0.75 28.1724 7.6875 35.1099 16.25 35.1099C24.75 35.1099 31.75 28.1724 31.75 19.6099C31.75 11.1099 24.75 4.10986 16.25 4.10986ZM16.25 10.9849C17.6875 10.9849 18.875 12.1724 18.875 13.6099C18.875 15.1099 17.6875 16.2349 16.25 16.2349C14.75 16.2349 13.625 15.1099 13.625 13.6099C13.625 12.1724 14.75 10.9849 16.25 10.9849ZM19.75 26.8599C19.75 27.2974 19.375 27.6099 19 27.6099H13.5C13.0625 27.6099 12.75 27.2974 12.75 26.8599V25.3599C12.75 24.9849 13.0625 24.6099 13.5 24.6099H14.25V20.6099H13.5C13.0625 20.6099 12.75 20.2974 12.75 19.8599V18.3599C12.75 17.9849 13.0625 17.6099 13.5 17.6099H17.5C17.875 17.6099 18.25 17.9849 18.25 18.3599V24.6099H19C19.375 24.6099 19.75 24.9849 19.75 25.3599V26.8599Z" fill="#FF0000"/>
-                    </svg>
-                    <span>Ser afiliado te permitirá acumular
-                      <span>300 puntos CyberCard</span> en esta reserva</span>
-                </div>
+            <div class="cont-ser-afiliado">
+              <div>
+                <svg
+                  width="33"
+                  height="38"
+                  viewBox="0 0 33 38"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.25 4.10986C7.6875 4.10986 0.75 11.1099 0.75 19.6099C0.75 28.1724 7.6875 35.1099 16.25 35.1099C24.75 35.1099 31.75 28.1724 31.75 19.6099C31.75 11.1099 24.75 4.10986 16.25 4.10986ZM16.25 10.9849C17.6875 10.9849 18.875 12.1724 18.875 13.6099C18.875 15.1099 17.6875 16.2349 16.25 16.2349C14.75 16.2349 13.625 15.1099 13.625 13.6099C13.625 12.1724 14.75 10.9849 16.25 10.9849ZM19.75 26.8599C19.75 27.2974 19.375 27.6099 19 27.6099H13.5C13.0625 27.6099 12.75 27.2974 12.75 26.8599V25.3599C12.75 24.9849 13.0625 24.6099 13.5 24.6099H14.25V20.6099H13.5C13.0625 20.6099 12.75 20.2974 12.75 19.8599V18.3599C12.75 17.9849 13.0625 17.6099 13.5 17.6099H17.5C17.875 17.6099 18.25 17.9849 18.25 18.3599V24.6099H19C19.375 24.6099 19.75 24.9849 19.75 25.3599V26.8599Z"
+                    fill="#FF0000"
+                  />
+                </svg>
+                <span
+                  >Ser afiliado te permitirá acumular
+                  <span>300 puntos CyberCard</span> en esta reserva</span
+                >
               </div>
             </div>
           </div>
         </div>
-     </div>
-</body>
-<script src="https://kit.fontawesome.com/6bf1c88451.js" crossorigin="anonymous"></script>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://kit.fontawesome.com/6bf1c88451.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
