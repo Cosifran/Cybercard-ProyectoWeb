@@ -6,6 +6,7 @@
     --colorText: #787878;
 }
 
+
 *{
 }
 
@@ -22,12 +23,20 @@ p{
   }
 
   .red-color{
-    color: #FF0000;
+    color: #FF0000 !important;
+  }
+
+  .bg-red-secundario{
+    background-color: #FFDFDF;
   }
 
   .bg-red{
-    background-color: #FF0000;
+    background-color: #FF0000 !important;
   }
+
+ .title-secundario{
+  color: #3F3F3F;
+ }
 
  .text-secundario{
   color: #6F6F6F;
@@ -40,4 +49,35 @@ p{
   .border-publicidad{
     box-shadow: 0px 4px 19px 3px rgba(0, 0, 0, 0.25);
 border-radius: 21px;
+  }
+
+  .span-secundario{
+    color: #787878 !important;
+  }
+
+  .text-p{
+    font-size: 0.75rem;
+  }
+
+  /*  btn seleccionar tarjeta t2 */
+
+  .pading-x{
+    padding: 0.375rem 2.188rem !important;
+  }
+
+    /*  estandar de los textos  */
+  .titulos-principales{
+    font-size: 1.25rem;
+  }
+
+  .titulos-secundario{
+    font-size: 0.875rem;
+  }
+
+  .span-primario{
+    font-size: 0.75rem;
+  }
+
+  .padin-t-two{
+    padding: 2px 2px !important;
   }
