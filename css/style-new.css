@@ -30,6 +30,10 @@ p{
     background-color: #FFDFDF;
   }
 
+  .bg-gris{
+    background-color: #E7E7E7;
+  }
+
   .bg-red{
     background-color: #FF0000 !important;
   }
@@ -70,14 +74,42 @@ border-radius: 21px;
     font-size: 1.25rem;
   }
 
-  .titulos-secundario{
+  .titulos-secundarios{
+    font-size: 1.125rem !important;
+  }
+
+  .titulos-terciario{
     font-size: 0.875rem;
   }
 
+  .text-precio{
+    font-size: 1rem;
+  }
+
   .span-primario{
-    font-size: 0.75rem;
+    font-size: 0.75rem !important;
   }
 
   .padin-t-two{
     padding: 2px 2px !important;
   }
+
+  .diseno-columna{
+    padding: 1.063rem 0.75rem;
+    background: #FFFFFF;
+box-shadow: 0rem 0.25rem 1.188rem -0.188rem rgba(0, 0, 0, 0.25);
+border-radius: 1.25rem;
+  }
+
+  .padding-tarjetas-v{
+    padding: 0.438rem 0.438rem !important;
+    font-size: 0.688rem !important;
+    font-family: "Roboto", sans-serif !important;
+  }
+
+    /*  Vista en galery  */
+
+    .diseno-tarjetas-navegacion{
+      border-radius: 0.938rem 0.938rem 0px 0px;
+      padding: 0.438rem 2.188rem !important;
+    }
