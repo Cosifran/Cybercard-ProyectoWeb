@@ -18,7 +18,7 @@ p{
     margin: 2.5px 0px !important;
 }
 
-  .border-tarjetas{
+  .border-cards{
     border-radius: 25px !important;
   }
 
@@ -26,11 +26,11 @@ p{
     color: #FF0000 !important;
   }
 
-  .bg-red-secundario{
+  .bg-red-secondary{
     background-color: #FFDFDF;
   }
 
-  .bg-gris{
+  .bg-grey{
     background-color: #E7E7E7;
   }
 
@@ -38,7 +38,7 @@ p{
     background-color: #FF0000 !important;
   }
 
- .title-secundario{
+ .title-secundary{
   color: #3F3F3F;
  }
 
@@ -50,12 +50,12 @@ p{
     font-size: 14px;
   }
 
-  .border-publicidad{
+  .border-advertising{
     box-shadow: 0px 4px 19px 3px rgba(0, 0, 0, 0.25);
 border-radius: 21px;
   }
 
-  .span-secundario{
+  .span-secundary{
     color: #787878 !important;
   }
 
@@ -70,23 +70,23 @@ border-radius: 21px;
   }
 
     /*  estandar de los textos  */
-  .titulos-principales{
+  .main-titles{
     font-size: 1.25rem;
   }
 
-  .titulos-secundarios{
+  .titles-secundary{
     font-size: 1.125rem !important;
   }
 
-  .titulos-terciario{
+  .tertiary-titles{
     font-size: 0.875rem;
   }
 
-  .text-precio{
+  .text-price{
     font-size: 1rem;
   }
 
-  .span-primario{
+  .primary-span{
     font-size: 0.75rem !important;
   }
 
@@ -101,7 +101,7 @@ box-shadow: 0rem 0.25rem 1.188rem -0.188rem rgba(0, 0, 0, 0.25);
 border-radius: 1.25rem;
   }
 
-  .padding-tarjetas-v{
+  .padding-card-v{
     padding: 0.438rem 0.438rem !important;
     font-size: 0.688rem !important;
     font-family: "Roboto", sans-serif !important;
