@@ -47,12 +47,26 @@ p{
  }
 
   .size-text{
-    font-size: 14px;
+    font-size: 0.875rem;
   }
 
   .border-advertising{
     box-shadow: 0px 4px 19px 3px rgba(0, 0, 0, 0.25);
 border-radius: 21px;
+  }
+
+  .border-cards-galery{
+    background-color: #F9F9F9;
+    border-radius: 21px 0px 0px 21px;
+  }
+  .border-cards-galery-two{
+    background-color: #F9F9F9;
+    border-radius: 21px;
+  }
+
+  .border-cards-galery-left{
+    background-color: #F9F9F9;
+    border-radius: 0px 21px 21px 0px;
   }
 
   .span-secundary{
@@ -109,7 +123,11 @@ border-radius: 1.25rem;
 
     /*  Vista en galery  */
 
-    .diseno-tarjetas-navegacion{
+    .design-navigation-cards{
       border-radius: 0.938rem 0.938rem 0px 0px;
       padding: 0.438rem 2.188rem !important;
+    }
+
+    .high-bars{
+      height: 7px !important;
     }
