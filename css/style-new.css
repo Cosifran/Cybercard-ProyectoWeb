@@ -42,7 +42,7 @@ p{
   color: #3F3F3F;
  }
 
- .text-secundario{
+ .text-secundary{
   color: #6F6F6F;
  }
 
@@ -108,7 +108,7 @@ border-radius: 21px;
     padding: 2px 2px !important;
   }
 
-  .diseno-columna{
+  .column-design{
     padding: 1.063rem 0.75rem;
     background: #FFFFFF;
 box-shadow: 0rem 0.25rem 1.188rem -0.188rem rgba(0, 0, 0, 0.25);
@@ -119,6 +119,10 @@ border-radius: 1.25rem;
     padding: 0.438rem 0.438rem !important;
     font-size: 0.688rem !important;
     font-family: "Roboto", sans-serif !important;
+  }
+
+  .px-7{
+    padding: 0.5rem 5.75rem !important;
   }
 
     /*  Vista en galery  */
