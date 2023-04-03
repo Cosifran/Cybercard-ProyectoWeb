@@ -135,3 +135,11 @@ border-radius: 1.25rem;
     .high-bars{
       height: 7px !important;
     }
+
+    .color-FFDFDF{
+      background-color: #FFDFDF;
+    }
+
+    .color-transparent{
+      color: transparent;
+    }
