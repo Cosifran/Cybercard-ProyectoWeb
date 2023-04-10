@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Listing</title>
+
+  <!--Bootstrap y CSS-->
+  <link rel="stylesheet" href="./assets/css/style-new.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+</head>
+
+<body>
+  <main>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col col-md-3">
+          <aside>
+            <div class="row mb-3">
+              <div class="col col-md-12 d-none d-md-block d-lg-block">
+                <a href="#">
+                  <img src="./assets/images/img-publicidad-dos.png" class="img-fluid" alt="imagen-publicidad" />
+                </a>
+              </div>              
+            </div>
+
+            <div class="row">
+              <div class="col col-md-12">
+                <div class="card border-0 shadow-sm p-2 rounded-5">
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col col-md-12">
+                        <p class="tertiary-titles fw-bold">Precios</p>
+                        <div class="mb-2">
+                          <label for="min" class="form-label primary-span fw-bold m-0">min.</label>
+                          <input type="number" class="form-control primary-span" id="min" placeholder="COP 20.000">
+                        </div>
+
+                        <div>
+                          <label for="max" class="form-label primary-span fw-bold m-0">max.</label>
+                          <input type="number" class="form-control primary-span" id="max" placeholder="COP 20.000.000">
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="row">
+                      <div class="col col-md-12">
+                        <p class="tertiary-titles fw-bold">Estrellas</p>
+                        <p class="tertiary-titles font-monospace">
+                          <span>
+                            <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
+                                fill="#FFD337" stroke="#C2C2C2" />
+                            </svg>
+
+                          </span>
+
+                          <span>
+                            <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
+                                fill="#FFD337" stroke="#C2C2C2" />
+                            </svg>
+                          </span>
+
+                          <span>
+                            <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
+                                fill="#FFD337" stroke="#C2C2C2" />
+                            </svg>
+                          </span>
+
+                          <span>
+                            <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
+                                stroke="#C2C2C2" />
+                            </svg>
+
+                          </span>
+
+                          <span>
+                            <svg width="28" height="28" viewBox="0 0 25 24" fill="none"
+                              xmlns="http://www.w3.org/2000/svg">
+                              <path
+                                d="M8.19915 7.53751L8.46136 7.50005L8.57766 7.26208L11.6156 1.04593C11.9899 0.300848 13.0455 0.337409 13.3814 1.03988L13.3814 1.0399L13.3846 1.04641L16.4704 7.2648L16.5872 7.50005L16.8471 7.53744L23.6685 8.51856C23.6692 8.51867 23.67 8.51879 23.6707 8.5189C24.4569 8.64163 24.7996 9.62635 24.1873 10.2408C24.1868 10.2413 24.1863 10.2418 24.1858 10.2423L19.2799 15.0547L19.0928 15.2383L19.1373 15.4966L20.3053 22.2711C20.4271 23.0832 19.5414 23.7057 18.8343 23.3383C18.8338 23.338 18.8333 23.3378 18.8328 23.3375L12.7578 20.1129L12.5243 19.989L12.2904 20.1122L6.16724 23.3375C6.16702 23.3376 6.1668 23.3377 6.16657 23.3378C5.45933 23.7061 4.57287 23.0835 4.6946 22.2712L5.86264 15.4966L5.90718 15.2383L5.72005 15.0547L0.812655 10.2408C0.200487 9.62639 0.543072 8.64176 1.32911 8.51893L8.19915 7.53751Z"
+                                stroke="#C2C2C2" />
+                            </svg>
+                          </span>
+                        </p>
+                      </div>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="row">
+                      <div class="col col-md-12">                        
+                        <p class="tertiary-titles fw-bold">Plan de alimentación</p>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Desayuno
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Solo habitación
+                          </label>
+                        </div>
+
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Desayuno y cena
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Desayuno, almuerzo y cena
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Todo incluido
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+
+                    <hr class="my-3">
+
+                    <div class="row">
+                      <div class="col-md-12">
+                        <!-- Tipo de alojamiento apartado -->
+                        <p class="tertiary-titles fw-bold">Tipo de alojamiento</p>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Todos los alojamientos
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Casas
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Aparta hoteles
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Departamento
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Hoteles
+                          </label>
+                        </div>
+
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                          <label class="form-check-label primary-span" for="defaultCheck1">
+                            Resorts
+                          </label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+
+        <div class="col col-md-9">
+          <section>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="row pt-4 d-none d-sm-block d-md-block d-lg-none">
+                  <div class="col col-md-12 p-0">
+                    <h2 class="fw-bold">Resultados de tu busqueda</h2>
+                    <p class="fw-normal ">45 Hoteles encontrados</p>
+                  </div>
+                </div>
+
+                
+                <!-- Tarjeta del listing -->
+
+                <div class="row shadow border-cards">
+                  <div class="row pe-0">
+                    <div class="col col-md-3 p-0">
+
+                      <span class="position-absolute ms-3 mt-3 py-1 px-2 bg-white rounded-3  shadow-sm primary-span">
+                        <i class="fa-solid fa-utensils" style="color: #ff0000"></i>
+                        Incluye desayuno
+                      </span>
+                      <img src="/images/imagen-hotel-t2.png" class="img-fluid" alt="imagen-tarjeta-t2">
+                    </div>
+
+                    <div class="col col-md-6 pt-2">
+                      <p class="fw-bold main-titles">The Pyramid Cancún</p>
+                      <p class="text-secondary primary-span"> <i class="fa-solid fa-location-dot"
+                          style="color: #ff0000;"></i>
+                        Egipto, 5.3 Km del centro</p>
+                      <p class="tertiary-titles">
+                        <span class="badge bg-red me-2">9.2</span>
+                        <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                        <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                      </p>
+
+                      <p class="mt-2 primary-span"><span
+                          class="badge red-color padin-t-two me-2 bg-red-secondary px-4 py-2 fw-normal"> <i
+                            class="fa-solid fa-check" style="color: #ff0000;"></i> Cancelación gratuita</span></p>
+
+                      <hr class="my-2">
+
+                      <div class="row">
+                        <div class="col col-md-6">
+                          <p class="fw-semibold primary-span text-secondary">Publica</p>
+                          <p class="fw-bold text-price tertiary-titles">COP 21.750.000</p>
+                          <p class="fw-semibold primary-span text-secondary">3 noches, 2 personas</p>
+                        </div>
+
+                        <div class="col col-md-6 text-end border-left border-start">
+                          <p class="fw-semibold primary-span text-secondary">Afiliado</p>
+                          <p class="fw-bold text-price tertiary-titles">COP 21.500.000</p>
+                          <p class="fw-semibold primary-span text-secondary">3 noches, 2 personas</p>
+                        </div>
+                      </div>
+
+                      <hr class="my-1">
+
+                      <div class="row">
+                        <div class="col col-12 pt-1">
+                          <p class="text-secondary text-center text-p">Incluye impuestos, tasas y cargos <span
+                              class="fw-bold red-color">excepto el IVA</span></p>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col col-md-3 border-left border-start p-0 my-2 ps-2">
+                      <div class="row pt-2 ms-1">
+                        <div class="col col-md-2 pt-1 px-0 ">
+                          <svg width="18" height="19" viewBox="0 0 18 19" fill="none"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path
+                              d="M9 18.1104C13.9706 18.1104 18 14.0809 18 9.11035C18 4.13979 13.9706 0.110352 9 0.110352C4.02944 0.110352 0 4.13979 0 9.11035C0 14.0809 4.02944 18.1104 9 18.1104Z"
+                              fill="#FF0000" />
+                            <path
+                              d="M7.25192 6.52793C6.98801 6.22224 6.69981 5.99308 6.38685 5.84046C6.06162 5.68762 5.718 5.61131 5.35621 5.61131C4.68123 5.61131 4.11073 5.91269 3.64447 6.51544C3.17185 7.1182 2.93588 7.86517 2.93588 8.75636C2.93588 9.45246 3.00515 10.0741 3.2075 10.6257C3.40373 11.1776 3.72714 11.6171 4.11368 11.9396C4.48774 12.2707 4.92038 12.436 5.4114 12.436C6.13521 12.436 6.755 12.1176 7.27054 11.481L9.30478 13.8898C9.07154 14.2293 8.32275 14.9488 7.90554 15.2118C7.48221 15.475 7.04661 15.6701 6.59874 15.7975C6.15088 15.9249 5.73662 15.9885 5.35621 15.9885C4.28856 15.9885 3.34672 15.6785 2.53094 15.0589C1.71492 14.4308 1.089 13.6075 0.653402 12.5889C0.217801 11.553 0 10.4454 0 9.26531C0 8.18744 0.131952 7.21109 0.395629 6.3367C0.665438 5.44552 1.03677 4.68151 1.50916 4.04492C1.97542 3.42535 2.54297 2.93706 3.21182 2.58072C3.87453 2.23279 4.58903 2.05859 5.35621 2.05859C5.98213 2.05859 6.59238 2.19441 7.18764 2.46603C7.78881 2.74606 8.92187 3.70198 9.382 4.21139L7.25192 6.52793Z"
+                              fill="white" />
+                          </svg>
+
+                        </div>
+                        <div class="col col-md-10 pe-0 px-0">
+                          <p class="fw-semibold grey-color text-p pe-3">Tu ahorro como afiliado en esta reserva será
+                            de
+                            <span class="red-color">COP 1.500.000</span>
+                          </p>
+                        </div>
+                      </div>
+
+                      <div class="row mt-2">
+                        <div class="col col-md-12 px-3 ms-1 pt-5 mt-3">
+                          <a class="btn bg-red text-white pading-x" href="/html/galery-img-new.html"
+                            role="button">Seleccionar</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container">
+    <div class="row pt-4">
+      <div class="col col-md-12">
+        <h2 class="fw-bold">CyberCard te abre las puertas a un mundo lleno de ahorro y benecifios</h2>
+      </div>
+    </div>
+
+    <div class="row my-2">
+      <div class="col col-md-6">
+        <img src="./assets/images/Tarjeta hotel.png" class="img-fluid" alt="publicidadS">
+      </div>
+
+      <div class="col col-md-6">
+        <img src="./assets/images/Tarjeta hotel 2.png" class="img-fluid" alt="publicidadS">
+      </div>
+    </div>
+  </footer>
+
+</body>
+<!--Bootstrap Js-->
+<script src="./assets/js/bootstrap.min.js"></script>
+<!--Frontawesome-->
+<script src="https://kit.fontawesome.com/6bf1c88451.js" crossorigin="anonymous"></script>
+
+</html>
