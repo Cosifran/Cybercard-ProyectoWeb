@@ -40,133 +40,160 @@
                                 </div>
 
                                 <!-- Columna completa tu reserva -->
-                                <div class="border-advertising bg-white my-3">
-                                    <div>
-                                        <h3 class="fw-bold fs-5 main-titles ps-4 pt-4 ms-4">Completa tu reserva</h3>
-                                        <p class="fw-bold text-price ps-4 pt-3 ms-4">¿Quién será el titular de la
-                                            reserva?</p>
-                                    </div>
+                                <div class="card border-0 shadow-lg rounded-5 my-3 bg-white">
+                                    <h3 class="fw-bold fs-5 main-titles ps-4 pt-4 ms-4">Completa tu reserva</h3>
+                                    <p class="fw-bold text-price ps-4 pt-3 ms-4">¿Quién será el titular de la
+                                        reserva?</p>
 
                                     <!-- Adulto 1 fila -->
 
-                                    <div class="mx-5 mt-4 border-cards-galery">
-                                        <div class="px-3 pt-4">
-                                            <p class="text-price fw-normal">Adulto 1</p>
-                                            <p class="text-price fw-normal my-3">Sera responsable de hacer el check-in y
-                                                check-out en el
-                                                alojamiento</p>
-                                        </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card border-0 mx-5 mt-3">
+                                                <div class="card-body border-cards-galery rounded-3-start">
+                                                    <div class="px-3">
+                                                        <p class="text-price fw-bold mt-4">Adulto 1</p>
+                                                        <p class="text-price fw-normal my-3">Sera responsable de hacer
+                                                            el check-in y
+                                                            check-out en el
+                                                            alojamiento</p>
+                                                    </div>
 
-                                        <div class="mb-3 px-3">
-                                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Nombre">
-                                        </div>
+                                                    <div class="mb-3 px-3">
+                                                        <input type="text" class="form-control"
+                                                            id="exampleFormControlInput1" placeholder="Nombre">
+                                                    </div>
 
-                                        <div class="mb-3 px-3 pb-4">
-                                            <input type="text" class="form-control" id="exampleFormControlInput1"
-                                                placeholder="Apellidos">
-                                        </div>
-                                    </div>
-
-                                    <p class="fw-bold text-price ps-4 pt-3 ms-4">¿A donde enviamos tus vouchers?</p>
-
-                                    <div class="mx-5 mt-4 border-cards-galery">
-                                        <div class="px-3 py-3">
-                                            <p class="text-price fw-normal mb-3">El email que elijas será fundamental
-                                                para que gestiones
-                                                tu reserva y recibas información
-                                                importante sobre tu viaje.</p>
-
-
-
-                                            <div class="mb-3">
-                                                <label for="input3" class="form-label text-price fw-normal ps-1">Email
-                                                    (Donde recibirás
-                                                    tus vouchers)</label>
-                                                <input type="email" class="form-control" id="input3"
-                                                    placeholder="minombre@ejemplo.com">
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="input4"
-                                                    class="form-label text-price fw-normal ps-1">Confirma tu
-                                                    email</label>
-                                                <input type="email" class="form-control" id="input4"
-                                                    placeholder="minombre@ejemplo.com">
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <p class="fw-bold text-price ps-4 pt-3 ms-4">¿A que numero podemos llamarte?</p>
-
-                                    <div class="mx-5 mt-3 mb-2 border-cards-galery">
-                                        <div class="px-3 py-3 mb-3">
-                                            <div class="mb-3">
-                                                <label for="input5"
-                                                    class="form-label text-price fw-normal ps-1">Telefono</label>
-                                                <select class="form-select form-select-md"
-                                                    aria-label=".form-select-sm example" id="input5">
-                                                    <option selected>Celular</option>
-                                                    <option value="1">One</option>
-                                                    <option value="2">Two</option>
-                                                    <option value="3">Three</option>
-                                                </select>
-                                            </div>
-
-                                            <div class="mb-3">
-                                                <label for="input6" class="form-label text-price fw-normal ps-1">Código
-                                                    de país</label>
-                                                <select class="form-select form-select-md"
-                                                    aria-label=".form-select-sm example" id="input6">
-                                                    <option selected>Colombia +57</option>
-                                                    <option value="1">Perú</option>
-                                                    <option value="2">Ecuador</option>
-                                                    <option value="3">Mexico</option>
-                                                </select>
-                                            </div>
-
-                                            <div>
-                                                <label for="input7"
-                                                    class="form-label text-price fw-normal ps-1">Numero</label>
-                                                <div class="mb-3">
-                                                    <input type="number" class="form-control" id="input7"
-                                                        placeholder="Ingresa tu numero">
+                                                    <div class="mb-3 px-3 mb-3">
+                                                        <input type="text" class="form-control"
+                                                            id="exampleFormControlInput1" placeholder="Apellidos">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="color-transparent">separator</div>
+                                    <!-- vouchers -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="fw-bold text-price ps-4 pt-3 ms-4">¿A donde enviamos tus vouchers?
+                                            </p>
+
+                                            <div class="mx-5 mt-4 card border-0 border-cards-galery">
+                                                <div class="card-body border-cards-galery rounded-3-start">
+                                                    <div class="px-3 py-3">
+                                                        <p class="text-price fw-normal mb-3">El email que elijas será
+                                                            fundamental
+                                                            para que gestiones
+                                                            tu reserva y recibas información
+                                                            importante sobre tu viaje.</p>
+                                                        <div class="mb-3">
+                                                            <label for="input3"
+                                                                class="form-label text-price fw-normal ps-1">Email
+                                                                (Donde recibirás
+                                                                tus vouchers)</label>
+                                                            <input type="email" class="form-control" id="input3"
+                                                                placeholder="minombre@ejemplo.com">
+                                                        </div>
+
+                                                        <div>
+                                                            <label for="input4"
+                                                                class="form-label text-price fw-normal ps-1">Confirma tu
+                                                                email</label>
+                                                            <input type="email" class="form-control" id="input4"
+                                                                placeholder="minombre@ejemplo.com">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- numero de telefono -->
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <p class="fw-bold text-price ps-4 pt-3 ms-4">¿A que numero podemos llamarte?
+                                            </p>
+
+                                            <div class="mx-5 mt-4 card border-0 border-cards-galery">
+                                                <div class="card-body border-cards-galery rounded-3-start">
+                                                    <div class="px-3 py-3">
+                                                        <div class="mb-3">
+                                                            <label for="input5"
+                                                                class="form-label text-price fw-normal ps-1">Telefono</label>
+                                                            <select class="form-select form-select-md"
+                                                                aria-label=".form-select-sm example" id="input5">
+                                                                <option selected>Celular</option>
+                                                                <option value="1">One</option>
+                                                                <option value="2">Two</option>
+                                                                <option value="3">Three</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <div class="mb-3">
+                                                            <label for="input6"
+                                                                class="form-label text-price fw-normal ps-1">Código
+                                                                de país</label>
+                                                            <select class="form-select form-select-md"
+                                                                aria-label=".form-select-sm example" id="input6">
+                                                                <option selected>Colombia +57</option>
+                                                                <option value="1">Perú</option>
+                                                                <option value="2">Ecuador</option>
+                                                                <option value="3">Mexico</option>
+                                                            </select>
+                                                        </div>
+
+                                                        <label for="input7"
+                                                            class="form-label text-price fw-normal ps-1">Numero</label>
+                                                        <div>
+                                                            <input type="number" class="form-control" id="input7"
+                                                                placeholder="Ingresa tu numero">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="color-transparent">separator</div>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <!-- Cupon de descuento -->
-                                <div class="border-advertising bg-white my-3">
-                                    <div class="row">
-                                        <p class="fw-bold text-price ps-5 py-3">Cupón de descuento</p>
-                                        <div class="col-12 col-lg-7 col-xl-8 px-5 ps-lg-5 pb-3 col-xxl-8">
-                                            <select class="form-select form-select-md"
-                                                aria-label=".form-select-sm example">
-                                                <option selected>Ingresa tu cupon</option>
-                                            </select>
-                                        </div>
+                                <div class="card border-0 shadow-lg rounded-5 my-3 bg-white">
+                                    <div class="card-body mx-4">
+                                        <div class="row">
+                                            <div class="col-12">
+                                                <p class="fw-bold text-price py-3">Cupón de descuento</p>
+                                                <div class="row">
+                                                    <div class="col-8">
+                                                        <select class="form-select form-select-md"
+                                                            aria-label=".form-select-sm example">
+                                                            <option selected>Ingresa tu cupon</option>
+                                                        </select>
+                                                    </div>
 
-                                        <div class="col-12 col-md-4 col-lg-5 col-xl-4 col-xxl-4 ps-xxl-3 ms-5 ms-lg-0">
-                                            <a class="btn bg-red text-white px-5" href="#" role="button">Aplicar
-                                                cupon</a>
-                                        </div>
+                                                    <div class="col-4">
+                                                        <a class="btn bg-red text-white w-100" href="#"
+                                                            role="button">Aplicar
+                                                            cupon</a>
+                                                    </div>
 
-                                        <div class="col-12 col-md-12 pb-3 px-5 mt-2 mt-lg-0">
-                                            <p class="tertiary-titles fw-normal">El valor del cupón debe redimirse por
-                                                el valor
-                                                completo, si el valor de tu reserva supera el valor de tu cupón
-                                                promocional, se deberá
-                                                cancelar el excedente.</p>
+                                                    <div class="col-12 col-md-12 pb-3 mt-lg-0">
+                                                        <p class="tertiary-titles fw-normal mt-3">El valor del cupón
+                                                            debe redimirse
+                                                            por
+                                                            el valor
+                                                            completo, si el valor de tu reserva supera el valor de tu
+                                                            cupón
+                                                            promocional, se deberá
+                                                            cancelar el excedente.</p>
+                                                    </div>
+                                                </div>
+                                            </div>
                                         </div>
-
                                     </div>
                                 </div>
 
                                 <!-- Como desea pagar -->
-                                <div class="border-advertising bg-white my-3">
+                                <div class="card border-0 shadow-lg rounded-5 my-3 bg-white">
                                     <div class="mx-5 mt-3 mb-2">
                                         <p class="fw-bold text-price py-3">¿Cómo desea pagar?</p>
                                         <select class="form-select form-select-md" aria-label=".form-select-sm example">
@@ -205,7 +232,8 @@
                                                         <div class="mb-3">
                                                             <label for="input10"
                                                                 class="form-label text-price fw-normal ps-1 ">Vencimiento</label>
-                                                            <input type="date" class="form-control mt-lg-4 mt-xl-0" id="input10">
+                                                            <input type="date" class="form-control mt-lg-4 mt-xl-0"
+                                                                id="input10">
                                                         </div>
                                                     </div>
 
@@ -264,75 +292,97 @@
 
                         <!-- Columna derecha -->
                         <div class="col col-md-4 d-none d-lg-block d-xl-block d-xxl-block">
-                            <aside>
-                                <div class="row">
-                                    <aside>
-                                        <section>
-                                            <div class="col col-md-12 border-advertising bg-white">
-                                                <div class="row py-2">
-                                                    <div class="col col-md-2 col-lg-3">
-                                                        <h2 class="text-center ms-3 mt-2"><i class="fa-solid fa-check"
-                                                                style="color: #6f6f6f;"></i></h2>
-                                                    </div>
+                            <div class="row">
+                                <aside>
+                                    <section>
+                                        <div class="col-12">
+                                            <div class="col col-md-12">
+                                                <div class="row">
+                                                    <div class="card border-0 shadow-lg rounded-4 bg-white">
+                                                        <div class="card-body">
+                                                            <div class="row py-2">
+                                                                <div class="col col-md-2 col-lg-3">
+                                                                    <h2 class="text-center mt-2"><i
+                                                                            class="fa-solid fa-check"
+                                                                            style="color: #6f6f6f;"></i></h2>
+                                                                </div>
 
-                                                    <div class="col col-md-7 px-0">
-                                                        <p class="text-price text-secondary">Esta compra te permitirá
-                                                            obtener <span class="red-color">300 puntos CyberCard</span>
-                                                        </p>
+                                                                <div class="col col-md-7 px-0">
+                                                                    <p class="text-price text-secondary">Esta compra te
+                                                                        permitirá
+                                                                        obtener <span class="red-color">300 puntos
+                                                                            CyberCard</span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
 
-                                            <div class="col col-md-12 my-3">
+                                            <div class="col col-md-12  my-3">
                                                 <div class="row">
-                                                    <div class="border-advertising bg-white">
-                                                        <div class="px-3 pt-4">
-                                                            <p class="titles-secundary fw-bold">Detalle de pago</p>
-                                                        </div>
-
-                                                        <div class="row px-3">
-                                                            <div class="col col-md-7">
-                                                                <p class=" fw-normal text-price text-secondary py-3">
-                                                                    Alojamiento para 2 personas
-                                                                </p>
-                                                                <p class=" fw-normal text-price text-secondary">Cargos
-                                                                </p>
-                                                                <p class=" fw-normal text-price text-secondary pt-3">
-                                                                    Cupon de descuento</p>
+                                                    <div class="card border-0 shadow-lg rounded-4 bg-white">
+                                                        <div class="card-body">
+                                                            <div class="pt-3">
+                                                                <p class="titles-secundary fw-bold">Detalle de pago</p>
                                                             </div>
 
-                                                            <div class="col col-md-5 px-0 text-end">
-                                                                <p class="fw-normal text-price text-secondary py-3">COP
-                                                                    00.000.000</p>
-                                                                <p class="fw-normal text-price text-secondary pt-lg-4 pt-xxl-0">COP
-                                                                    00.000.000</p>
-                                                                <p class="fw-normal text-price text-secondary pt-3">-
-                                                                    COP 100.000</p>
+                                                            <div class="row">
+                                                                <div class="col col-md-7">
+                                                                    <p
+                                                                        class=" fw-normal text-price text-secondary py-3">
+                                                                        Alojamiento para 2 personas
+                                                                    </p>
+                                                                    <p class=" fw-normal text-price text-secondary">
+                                                                        Cargos
+                                                                    </p>
+                                                                    <p
+                                                                        class=" fw-normal text-price text-secondary pt-3">
+                                                                        Cupon de descuento</p>
+                                                                </div>
+
+                                                                <div class="col col-md-5 px-0 text-end">
+                                                                    <p class="fw-normal text-price text-secondary py-3">
+                                                                        COP
+                                                                        00.000.000</p>
+                                                                    <p
+                                                                        class="fw-normal text-price text-secondary pt-lg-4 pt-xxl-0">
+                                                                        COP
+                                                                        00.000.000</p>
+                                                                    <p class="fw-normal text-price text-secondary pt-3">
+                                                                        -
+                                                                        COP 100.000</p>
+                                                                </div>
+
+                                                                <div class="col-12">
+                                                                    <hr>
+                                                                </div>
                                                             </div>
 
-                                                            <div>
-                                                                <hr>
-                                                            </div>
-                                                        </div>
+                                                            <div class="row mb-2">
+                                                                <div class="col col-md-6">
+                                                                    <p class="fw-bold text-price">Total a pagar</p>
+                                                                </div>
 
-                                                        <div class="row px-3 mb-2">
-                                                            <div class="col col-md-6">
-                                                                <p class="fw-bold text-price">Total a pagar</p>
-                                                            </div>
+                                                                <div class="col col-md-6 px-0 text-end">
+                                                                    <p class="text-price fw-bold">COP 00.000.000</p>
+                                                                    <p class="span-secundary fw-normal primary-span">
+                                                                        Tarifa
+                                                                        Afiliado</p>
+                                                                </div>
 
-                                                            <div class="col col-md-6 px-0 text-end">
-                                                                <p class="text-price fw-bold">COP 00.000.000</p>
-                                                                <p class="span-secundary fw-normal primary-span">Tarifa
-                                                                    Afiliado</p>
                                                             </div>
-
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
 
+                                            <div class="col-12">
                                                 <div class="row">
-                                                    <div class="col col-md-12 border-advertising bg-white my-3 px-4">
-                                                        <div class="my-3">
+                                                    <div
+                                                        class="col col-md-12 card border-0 shadow-lg rounded-4 bg-white">
+                                                        <div class="card-body my-3">
                                                             <p class="titles-secundary fw-bold">Cargos adicionales</p>
                                                             <p class="fw-normal text-price text-secondary py-3">Te los
                                                                 cobrará el alojamiento
@@ -349,99 +399,112 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
 
+                                            <div class="col-12">
                                                 <div class="row">
                                                     <div
-                                                        class="col col-md-12 pt-2 border-advertising bg-white my-3 px-4">
-                                                        <p class="titles-secundary fw-bold">Detalles de compra</p>
-                                                        <p class="fw-normal titles-secundary text-secondary">The Pyramid
-                                                            Cancún</p>
-                                                        <p class="tertiary-titles">
-                                                            <i class="fa-solid fa-star" style="color: #ffd337"></i>
-                                                            <i class="fa-solid fa-star" style="color: #ffd337"></i>
-                                                            <i class="fa-solid fa-star" style="color: #ffd337"></i>
-                                                            <i class="fa-solid fa-star" style="color: #ffd337"></i>
-                                                            <i class="fa-solid fa-star" style="color: #ffd337"></i>
-                                                        </p>
+                                                        class="col col-md-12 card border-0 shadow-lg rounded-4 bg-white my-3">
+                                                        <div class="card-body mt-3">
+                                                            <p class="titles-secundary fw-bold">Detalles de compra</p>
+                                                            <p class="fw-normal titles-secundary text-secondary">The
+                                                                Pyramid
+                                                                Cancún</p>
+                                                            <p class="tertiary-titles">
+                                                                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                                                                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                                                                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                                                                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                                                                <i class="fa-solid fa-star" style="color: #ffd337"></i>
+                                                            </p>
 
-                                                        <div class="row">
-                                                            <div class="col-md-12">
-                                                                <p class="mt-1 tertiary-titles text-xxl-center text-xl-start text-lg-start py-2">
+                                                            <div class="row">
+                                                                <div class="col-md-12">
+                                                                    <p
+                                                                        class="mt-1 tertiary-titles text-xxl-center text-xl-start text-lg-start py-2">
+                                                                        <span
+                                                                            class="text-black primary-span fw-normal py-2 bg-red-secondary px-2 rounded-3"><i
+                                                                                class="fa-solid fa-circle-info me-1"
+                                                                                style="color: #ff0000;"></i>
+                                                                            Cancelación
+                                                                            gratis hasta las <span class="red-color">
+                                                                                23:59
+                                                                            </span>
+                                                                            del
+                                                                            <span class="red-color">
+                                                                                del 13 Marz.
+                                                                                2023
+                                                                            </span>
+                                                                        </span>
+                                                                    </p>
+                                                                </div>
+                                                            </div>
+                                                            <p class="text-secondary text-price fw-normal"> <i
+                                                                    class="fa-solid fa-location-dot"
+                                                                    style="color: #ff0000;"></i>
+                                                                Egipto, 5.3 Km del centro</p>
+
+
+                                                            <hr class="my-2">
+
+                                                            <div class="row">
+                                                                <div class="col col-md-6">
+                                                                    <p class="fw-normal text-price text-secondary">
+                                                                        Check-in
+                                                                    </p>
+                                                                    <p class="fw-bold text-price">17 Marz. 2023</p>
+                                                                    <p class="fw-normal text-price text-secondary">15:00
+                                                                        horas</p>
+                                                                </div>
+
+                                                                <div
+                                                                    class="col col-md-6 text-end border-left border-start">
+                                                                    <p class="fw-normal text-price text-secondary">
+                                                                        Check-out
+                                                                    </p>
+                                                                    <p class="fw-bold text-price">19 Marz. 2023</p>
+                                                                    <p class="fw-normal text-price text-secondary">11:00
+                                                                        horas</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <hr class="my-1">
+
+                                                            <div class="row mb-4">
+                                                                <div class="col col-12 pt-1">
+                                                                    <p class="fw-normal text-price text-secondary"><span
+                                                                            class="fw-bold">1
+                                                                        </span>noche, <span class="fw-bold"> 2 </span>
+                                                                        adultos</p>
+                                                                    <p class="fw-normal text-price text-secondary pb-2">
+                                                                        HABITACION ESTANDAR</p>
+                                                                </div>
+                                                                <div class="">
                                                                     <span
-                                                                        class="text-black primary-span fw-normal py-2 bg-red-secondary px-2 rounded-3"><i
-                                                                            class="fa-solid fa-circle-info me-1"
-                                                                            style="color: #ff0000;"></i>
-                                                                        Cancelación
-                                                                        gratis hasta las <span class="red-color">
-                                                                            23:59
-                                                                        </span>
-                                                                        del
-                                                                        <span class="red-color">
-                                                                            del 13 Marz.
-                                                                            2023
-                                                                        </span>
+                                                                        class="py-1 px-5 color-FFDFDF py-2 rounded-3 red-color fw-bold shadow-sm primary-span">
+                                                                        <i class="fa-solid fa-utensils"
+                                                                            style="color: #ff0000"></i>
+                                                                        Incluye desayuno
                                                                     </span>
-                                                                </p>
-                                                            </div>
-                                                        </div>
-                                                        <p class="text-secondary text-price fw-normal"> <i
-                                                                class="fa-solid fa-location-dot"
-                                                                style="color: #ff0000;"></i>
-                                                            Egipto, 5.3 Km del centro</p>
-
-
-                                                        <hr class="my-2">
-
-                                                        <div class="row">
-                                                            <div class="col col-md-6">
-                                                                <p class="fw-normal text-price text-secondary">Check-in
-                                                                </p>
-                                                                <p class="fw-bold text-price">17 Marz. 2023</p>
-                                                                <p class="fw-normal text-price text-secondary">15:00
-                                                                    horas</p>
-                                                            </div>
-
-                                                            <div class="col col-md-6 text-end border-left border-start">
-                                                                <p class="fw-normal text-price text-secondary">Check-out
-                                                                </p>
-                                                                <p class="fw-bold text-price">19 Marz. 2023</p>
-                                                                <p class="fw-normal text-price text-secondary">11:00
-                                                                    horas</p>
-                                                            </div>
-                                                        </div>
-
-                                                        <hr class="my-1">
-
-                                                        <div class="row mb-4">
-                                                            <div class="col col-12 pt-1">
-                                                                <p class="fw-normal text-price text-secondary"><span
-                                                                        class="fw-bold">1
-                                                                    </span>noche, <span class="fw-bold"> 2 </span>
-                                                                    adultos</p>
-                                                                <p class="fw-normal text-price text-secondary pb-2">
-                                                                    HABITACION ESTANDAR</p>
-                                                            </div>
-                                                            <div>
-                                                                <span
-                                                                    class="py-1 px-5 color-FFDFDF mb-2 py-2 rounded-3 red-color fw-bold shadow-sm primary-span">
-                                                                    <i class="fa-solid fa-utensils"
-                                                                        style="color: #ff0000"></i>
-                                                                    Incluye desayuno
-                                                                </span>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
+                                            </div>
 
+                                            <div class="col-12">
                                                 <div class="row">
-                                                    <div class="col col-md-12 border-advertising py-2">
+                                                    <div
+                                                        class="col col-md-12 card border-0 shadow-lg rounded-4 bg-white py-2">
                                                         <p class="text-center"> <span><i class="fa-solid fa-circle-info"
                                                                     style="color: #ff0000;"></i></span> políticas de
                                                             cambios, cancelaciones y
                                                             equipaje</p>
 
                                                         <div class="row justify-content-center">
-                                                            <div class="col col-md-8 col-xxl-7 col-lg-9 py-2 border-cards-galery-two">
+                                                            <div
+                                                                class="col col-md-8 col-xxl-7 col-lg-9 py-2 border-cards-galery-two">
                                                                 <a class="btn bg-red text-white px-5" href="#"
                                                                     role="button">Ver condiciones</a>
                                                             </div>
@@ -449,14 +512,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </section>
-                                    </aside>
-                                </div>
-                            </aside>
+                                        </div>
+                                    </section>
+                                </aside>
+                            </div>
                         </div>
-
-
-
                     </div>
                 </div>
             </div>
