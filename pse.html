@@ -7,31 +7,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>pse</title>
     <!--Bootstrap y CSS-->
-    <link rel="stylesheet" href="/css/style-new.css" />
+    <link rel="stylesheet" href="./assets/css/style-new.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/boostrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
 </head>
 
 <body>
     <div class="container">
         <div class="col col-md-8">
-            <div class="border-advertising bg-white my-3">
-                <div class="mx-5 mt-3 mb-2">
-                    <p class="fw-bold text-price py-3">¿Cómo desea pagar?</p>
+            <div class="card border-0 shadow-lg rounded-5 my-3 bg-white">
+                <div class="mx-2 mx-md-5 mt-3 mb-2">
+                    <p class="fw-bold text-price py-3 ms-3 ms-md-0">¿Cómo desea pagar?</p>
                     <select class="form-select form-select-md" aria-label=".form-select-sm example">
                         <option value="">Tarjeta crédito</option>
                         <option value="1">Tarjeta debito</option>
                         <option selected="2">PSE</option>
                     </select>
 
-                    <div class="my-3">
-                        <div class="border-cards-galery">
-                            <p class="fw-bold text-price py-3 px-3">PSE</p>
-                            <div class="row px-3 pb-3">
-                                <div class="col col-md-12">
-
-                                    <div class="mb-3">
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div class="card-body border-cards-galery rounded-3-start">
+                                <p class="fw-bold text-price py-3 px-3">PSE</p>
+                                <div class="row pb-3">
+                                    <div class="col col-md-12">
                                         <label for="ingresa-banco"
                                             class="form-label text-price fw-normal ps-1">Banco</label>
                                         <select class="form-select form-select-md" id="ingresa-banco"
@@ -42,89 +41,91 @@
                                         </select>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
 
-                    <p class="fw-bold text-price py-3">¿A nombre de quien emitimos la factura?</p>
+                    <p class="fw-bold text-price py-3 ms-3 ms-md-0">¿A nombre de quien emitimos la factura?</p>
 
-                    <div class="my-3">
-                        <div class="border-cards-galery">
-                            <div class="row px-3 pb-3 py-3">
-                                <div class="col col-md-12">
-
-                                    <div class="mb-3">
-                                        <label for="situacion-fiscal"
-                                            class="form-label text-price fw-normal ps-1">Situación fiscal</label>
-                                        <select class="form-select form-select-md" id="situacion-fiscal"
-                                            aria-label=".form-select-sm example">
-                                            <option selected>Persona natural</option>
-                                            <option value="1">BBVA</option>
-                                            <option value="2">Davivienda</option>
-                                        </select>
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="nombre-pse"
-                                            class="form-label text-price fw-normal ps-1">Nombre</label>
-                                        <input type="text" class="form-control" id="nombre-pse" placeholder="Nombre">
-                                    </div>
-
-                                    <div class="mb-3">
-                                        <label for="apellidos-pse"
-                                            class="form-label text-price fw-normal ps-1">Apellidos</label>
-                                        <input type="text" class="form-control" id="apellidos-pse" placeholder="Nombre">
-                                    </div>
-
-                                    <div class="row">
-                                        <div class="col col-md-6">
-                                            <div class="mb-3">
-                                                <label for="situacion-fiscal"
-                                                    class="form-label text-price fw-normal ps-1">Situación
-                                                    fiscal</label>
-                                                <select class="form-select form-select-md" id="situacion-fiscal"
-                                                    aria-label=".form-select-sm example">
-                                                    <option selected>Cedula de ciudadania</option>
-                                                </select>
-                                            </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card-body border-cards-galery rounded-3-start">
+                                <div class="row pb-3 py-3">
+                                    <div class="col col-md-12">
+                                        <div class="mb-3">
+                                            <label for="situacion-fiscal"
+                                                class="form-label text-price fw-normal ps-1">Situación fiscal</label>
+                                            <select class="form-select form-select-md" id="situacion-fiscal"
+                                                aria-label=".form-select-sm example">
+                                                <option selected>Persona natural</option>
+                                                <option value="1">BBVA</option>
+                                                <option value="2">Davivienda</option>
+                                            </select>
                                         </div>
 
-                                        <div class="col col-md-6">
-                                            <div>
-                                                <label for="cedula-ciudadania"
-                                                    class="form-label text-price fw-normal ps-1">Cedula ciudadania</label>
+                                        <div class="mb-3">
+                                            <label for="nombre-pse"
+                                                class="form-label text-price fw-normal ps-1">Nombre</label>
+                                            <input type="text" class="form-control" id="nombre-pse"
+                                                placeholder="Nombre">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="apellidos-pse"
+                                                class="form-label text-price fw-normal ps-1">Apellidos</label>
+                                            <input type="text" class="form-control" id="apellidos-pse"
+                                                placeholder="Nombre">
+                                        </div>
+
+                                        <div class="row">
+                                            <div class="col col-md-6">
                                                 <div class="mb-3">
-                                                    <input type="number" class="form-control" id="cedula-ciudadania"
-                                                        placeholder="Ej.: 1256235985">
+                                                    <label for="situacion-fiscal"
+                                                        class="form-label text-price fw-normal ps-1">Situación
+                                                        fiscal</label>
+                                                    <select class="form-select form-select-md" id="situacion-fiscal"
+                                                        aria-label=".form-select-sm example">
+                                                        <option selected>Cedula de ciudadania</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+
+                                            <div class="col col-md-6">
+                                                <div>
+                                                    <label for="cedula-ciudadania"
+                                                        class="form-label text-price fw-normal ps-1">Cedula
+                                                        ciudadania</label>
+                                                    <div class="mb-3">
+                                                        <input type="number" class="form-control" id="cedula-ciudadania"
+                                                            placeholder="Ej.: 1256235985">
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <div class="mb-3">
-                                        <label for="pais-e-doc"
-                                            class="form-label text-price fw-normal ps-1">País emisor del documento</label>
-                                        <select class="form-select form-select-md" id="pais-e-doc"
-                                            aria-label=".form-select-sm example">
-                                            <option selected>Colombia</option>
-                                        </select>
-                                    </div>
+                                        <div class="mb-3">
+                                            <label for="pais-e-doc" class="form-label text-price fw-normal ps-1">País
+                                                emisor
+                                                del documento</label>
+                                            <select class="form-select form-select-md" id="pais-e-doc"
+                                                aria-label=".form-select-sm example">
+                                                <option selected>Colombia</option>
+                                            </select>
+                                        </div>
 
-                                    <div class="mb-3">
                                         <label for="direccion"
                                             class="form-label text-price fw-normal ps-1">Dirección</label>
-                                        <input type="text" class="form-control" id="direccion" placeholder="Escribe dirección de residencia">
+                                        <input type="text" class="form-control" id="direccion"
+                                            placeholder="Escribe dirección de residencia">
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
 
 
-                    <div class="form-check pb-3">
+                    <div class="form-check pb-">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
                             Leí y acepto las condiciones de compra , políticas de privacidad y políticas de cambios
@@ -143,7 +144,7 @@
     </div>
 </body>
 <!--Bootstrap Js-->
-<script src="/js/bootstrap.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 <!--Frontawesome-->
 <script src="https://kit.fontawesome.com/6bf1c88451.js" crossorigin="anonymous"></script>
 
