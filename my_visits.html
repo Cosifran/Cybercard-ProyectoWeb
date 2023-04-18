@@ -19,7 +19,7 @@
             <section>
                 <div class="row">
                     <div class="col-12">
-                        <div class="row color-FFDFDF rounded-bottom-4">
+                        <div class="row color_secundary_red rounded-bottom-4">
                             <div class="col col-md-6 my-5 ">
                                 <p class="text-center fw-bold fs-1">15</p>
                                 <p class="text-center titles-secundary">Reservas realizadas</p>
@@ -32,9 +32,9 @@
                         </div>
                     </div>
 
-                    <div class="col-12 my-4">
+                    <div class="col-12 my-4 d-none d-sm-block">
                         <div class="row">
-                            <div class="col col-md-9 py-2">
+                            <div class="col col-md-9 py-2 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
                                 <a href="#" class="color-transparent">
                                     <p class="red-color"><span><i class="fa-solid fa-angle-left"
                                                 style="color: #ff0000;"></i></span>
@@ -43,85 +43,104 @@
                             </div>
 
                             <p class="fw-bold fs-2">Mis viajes</p>
-                                <p class="fw-bold text-secondary main-titles mt-2">Encuentra aquí todos tus viajes
-                                    realizados</p>
+                            <p class="fw-bold text-secondary main-titles">Encuentra aquí todos tus viajes
+                                realizados</p>
+                        </div>
+                    </div>
 
-                                    <!-- barra de navegacion -->
-                                <div class="row my-3">
-                                    <div class="col-4 px-0 text-center">
-                                        <a class="nav-link active bg-red py-1 text-white rounded-top-4"
-                                            aria-current="page" href="#">Activos</a>
-                                    </div>
-
-                                    <div class="col-4 px-0 text-center">
-                                        <a class="nav-link py-1 bg-grey rounded-top-4 text-black"
-                                            href="#">Completados</a>
-                                    </div>
-
-                                    <div class="col-4 px-0 text-center">
-                                        <a class="nav-link py-1 bg-grey rounded-top-4 text-black"
-                                            href="#">Cancelados</a>
+                    <!-- apartado info celular  -->
+                    <div class="col-12 d-block d-sm-none">
+                        <div class="card-body color_secundary_red rounded-4 mt-3">
+                            <div class="row">
+                                <div class="col-2">
+                                   <p class="text-end mt-2 fs-3"> <i class="fa-solid fa-circle-info" style="color: #ff0000;"></i></p>
+                                </div>
+                                <div class="col-10">
+                                    <div>
+                                        <p>Encuentra aquí el detalle de todos tus viajes realizados con CyberCard</p>
                                     </div>
                                 </div>
+                            </div>
+                        </div>
+                    </div>
 
-                                 <!-- botones filtro y reserva -->
-                                <div class="row my-3">
-                                    <div class="col-12 col-lg-5">
-                                        <div class="row">
-                                            <div class="col col-md-6 ps-0">
-                                                <a class="nav-link  text-black" href="#">
-                                                    <p class="border-min text-center border border-2 bg-white py-2">
-                                                        Fecha de reserva <span><i class="fa-regular fa-calendar"
-                                                                style="color: #3f3f3f;"></i></span></p>
-                                                </a>
-                                            </div>
+                    <!-- barra de navegacion -->
+                    <div class="col-12">
+                        <div class="row mt-3 mt-sm-0">
+                            <div class="col-4 px-0 text-center">
+                                <a class="nav-link active bg-red py-1 text-white rounded-top-4" aria-current="page"
+                                    href="#">Activos</a>
+                            </div>
 
-                                            <div class="col-6">
-                                                <a class="nav-link  text-black" href="#">
-                                                    <p
-                                                        class="border-min text-center border border-2 bg-white py-2 px-2">
-                                                        Filtro <span><i class="fa-solid fa-arrow-down-short-wide"
-                                                                style="color: #3f3f3f;"></i></span></p>
-                                                </a>
+                            <div class="col-4 px-0 text-center">
+                                <a class="nav-link py-1 bg-grey rounded-top-4 text-black" href="#">Completados</a>
+                            </div>
 
-                                            </div>
-                                            <div class="col-6"></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- tarjeta en my visits -->
+                            <div class="col-4 px-0 text-center">
+                                <a class="nav-link py-1 bg-grey rounded-top-4 text-black" href="#">Cancelados</a>
+                            </div>
+                        </div>
+                    </div>
 
+                    <!-- botones filtro y reserva -->
+                    <div class="col-12 d-none d-md-block d-lg-block d-xl-block d-xxl-block">
+                        <div class="row my-3">
+                            <div class="col-12 col-lg-5">
                                 <div class="row">
-                                    <div class="col-12 col-md-12 col-lg-9">
-                                        <div class="card mb-3  rounded-4 shadow-lg bg-white border-0">
-                                            <div class="row g-0 row align-items-end mx-2">
-                                                <div class="col-md-3">
-                                                    <img src="..." class="img-fluid rounded-start" alt="...">
-                                                </div>
-    
-                                                <div class="col-md-6">
-                                                    <div class="card-body">
-                                                        <h2 class="card-title fw-bold py-2">Hotel 2</h2>
-                                                        <p class="main-titles fw-semibold">Habitacion Suite</p>
-                                                        <p class="text-price pt-2">
-                                                            <i class="fa-solid fa-location-dot" style="color: #ff0000"></i>
-                                                            <span class=" fw-semibold ps-1 text-secondary">
-                                                              Cartagena, Bocagrande 5.3 Km del centro
-                                                            </span>
-                                                          </p>
-                                                          <p class="text-price text-secondary fw-semibold pt-2">Lunes 17
-                                                            marz - Miercorles 19 marz</p>
-                                                    </div>
-                                                </div>
-    
-                                                <div class="col-12 mb-3 col-sm-12 col-md-3 ms-md-0">
-                                                    <a class="btn bg-red  text-white w-100 " href="#"
-                                                            role="button">Ver reservación</a>
-                                                </div>
+                                    <div class="col col-md-6 ps-0">
+                                        <a class="nav-link  text-black" href="#">
+                                            <p class="border-min text-center border border-2 bg-white py-2">
+                                                Fecha de reserva <span><i class="fa-regular fa-calendar"
+                                                        style="color: #3f3f3f;"></i></span></p>
+                                        </a>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <a class="nav-link  text-black" href="#">
+                                            <p class="border-min text-center border border-2 bg-white py-2 px-2">
+                                                Filtro <span><i class="fa-solid fa-arrow-down-short-wide"
+                                                        style="color: #3f3f3f;"></i></span></p>
+                                        </a>
+
+                                    </div>
+                                    <div class="col-6"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- tarjeta en my visits -->
+                    <div class="col-12">
+                        <div class="row mt-3 mt-md-0">
+                            <div class="col-12 col-md-12 col-lg-9">
+                                <div class="card mb-3  rounded-4 shadow-lg bg-white border-0">
+                                    <div class="row g-0 row align-items-end mx-2">
+                                        <div class="col-md-3">
+                                            <img src="..." class="img-fluid rounded-start" alt="...">
+                                        </div>
+
+                                        <div class="col-md-6">
+                                            <div class="card-body">
+                                                <h2 class="card-title fw-bold py-2">Hotel 2</h2>
+                                                <p class="main-titles fw-semibold">Habitacion Suite</p>
+                                                <p class="text-price pt-2">
+                                                    <i class="fa-solid fa-location-dot" style="color: #ff0000"></i>
+                                                    <span class=" fw-semibold ps-1 text-secondary">
+                                                        Cartagena, Bocagrande 5.3 Km del centro
+                                                    </span>
+                                                </p>
+                                                <p class="text-price text-secondary fw-semibold pt-2">Lunes 17
+                                                    marz - Miercorles 19 marz</p>
                                             </div>
+                                        </div>
+
+                                        <div class="col-12 mb-3 col-sm-12 col-md-3 ms-md-0">
+                                            <a class="btn bg-red  text-white w-100 " href="#" role="button">Ver
+                                                reservación</a>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                         </div>
                     </div>
                 </div>
