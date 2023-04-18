@@ -47,7 +47,7 @@
                                     <a class="nav-link px-1 px-sm-2 px-md-4 px-lg-4 px-xl-5 px-xxl-5 bg-grey text-black rounded-top-4"
                                         href="#services">Servicios</a>
                                     <a class="nav-link px-1 px-sm-2 px-md-4 px-lg-4 px-xl-4 px-xxl-5 bg-grey text-black rounded-top-4"
-                                        href="#">Habitaciones</a>
+                                        href="#habitaciones">Habitaciones</a>
                                     <a class="nav-link px-1 px-sm-2 px-md-4 px-lg-3 px-xl-4 px-xxl-5 bg-grey text-black rounded-top-4"
                                         href="#">Ubicación</a>
                                     <a class="nav-link px-1 px-sm-2 px-md-4 px-lg-3 px-xl-4 px-xxl-4 bg-grey text-black rounded-top-4"
@@ -141,7 +141,7 @@
                         <!-- Tarjeta en galery -->
                         <div class="row">
                             <div class="col col-md-12">
-                                <p class="fw-bold main-titles mb-3 px-5 mt-3 pt-3">
+                                <p class="fw-bold main-titles mb-3 px-5 mt-3 pt-3" id="habitaciones">
                                     Habitaciones
                                 </p>
                             </div>
@@ -166,9 +166,72 @@
                                                             style="color: #ff0000"></i></span>
                                                     Aire acondicionado
                                                 </p>
+
                                                 <p class="mt-1 primary-span">
-                                                    Comodidades <span class="red-color">ver mas</span>
+                                                    Comodidades <a role="button" data-bs-toggle="modal"
+                                                        data-bs-target="#staticBackdrop">
+                                                        <span class="red-color">ver mas</span>
+                                                    </a>
                                                 </p>
+
+                                                <!-- Modal -->
+                                                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static"
+                                                    data-bs-keyboard="false" tabindex="-1"
+                                                    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                                    <div class="modal-dialog modal-dialog-centered">
+                                                        <div class="modal-content rounded-4">
+                                                            <div class="modal-header">
+                                                                <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                                                                    Servicios</h1>
+                                                                <button type="button" class="btn-close"
+                                                                    data-bs-dismiss="modal" aria-label="Close"></button>
+                                                            </div>
+                                                            <div class="modal-body">
+                                                                <div class="container-fluid">
+                                                                    <div class="row">
+                                                                        <div class="col-6">
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-wifi" style="color: #6f6f6f"></i>
+                                                                                <span>Wifi</span>
+                                                                            </p>
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-square-parking" style="color: #6f6f6f"></i>
+                                                                                <span>Estacionamiento</span>
+                                                                            </p>
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-person-swimming" style="color: #6f6f6f"></i>
+                                                                                <span>Piscina</span>
+                                                                            </p>
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-sharp fa-solid fa-utensils" style="color: #6f6f6f"></i>
+                                                                                <span>Alimentación</span>
+                                                                            </p>
+                                                                        </div>
+                                
+                                                                        <div class="col-6">
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-snowflake" style="color: #6f6f6f"></i>
+                                                                                <span>Aire acondicionado</span>
+                                                                            </p>
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-paw" style="color: #6f6f6f"></i>
+                                                                                <span>Acceso a mascotas</span>
+                                                                            </p>
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-mask-face" style="color: #6f6f6f"></i>
+                                                                                <span>Uso de tapabocas</span>
+                                                                            </p>
+                                                                            <p class="text-price mb-2">
+                                                                                <i class="fa-solid fa-dumbbell" style="color: #6f6f6f"></i>
+                                                                                <span>Gimnasio</span>
+                                                                            </p>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 <hr />
 
                                                 <div class="row pb-2">
@@ -366,7 +429,7 @@
     </div>
 </body>
 <!--Bootstrap Js-->
-<script src="/js/bootstrap.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
 <!--Frontawesome-->
 <script src="https://kit.fontawesome.com/6bf1c88451.js" crossorigin="anonymous"></script>
 
